@@ -23,7 +23,6 @@ function App() {
       <ContentInfo info={EdData}></ContentInfo>
       <ContentInfo info={ProjActData}></ContentInfo>
       <ContentInfo info={MisData}></ContentInfo>
-
       <ContentInfo info={IntLangData}></ContentInfo>
       <Certifications info={CerData}></Certifications>
     </div>
