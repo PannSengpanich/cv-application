@@ -29,16 +29,18 @@ export const EdData = [
   { topic: "EDUCATION" },
   {
     head: "ISE (International School of Engineering)",
-    details:
-      "ICE (Information and Communication Engineering) August 2022-Present (GPAX 3.44)",
+    details: "ICE (Information and Communication Engineering) (GPAX 3.44)",
+    date: "August 2022-Present",
   },
   {
     head: "ISE (International School of Engineering)",
-    details: "AERO (Aerospace Engineering) August 2020-August 2022",
+    details: "AERO (Aerospace Engineering)",
+    date: "August 2020-August 2022",
   },
   {
     head: "Saint Gabriel's College",
     details: "Math & Science March 2008-March 2020 (GPAX: 3.94)",
+    date: "2008-March 2020",
   },
 ];
 export const ProjActData = [
