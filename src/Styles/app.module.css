@@ -5,3 +5,13 @@
   margin: 50px 20vw;
   gap: 10px;
 }
+@media print {
+  * {
+    font-size: 0.75rem;
+  }
+
+  .mainContainer {
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -20,7 +20,7 @@ export default function GeneralInfo(props) {
           LinkedIn
         </a>
         <div className={styles.rightInfo}>Location: {props.info.location}</div>
-        <a href={`https://www.youtube.com/watch?v=video-id`}>Watch Video</a>
+        <a href={`https://www.youtube.com/watch?v=video-id`}>Youtube</a>
       </div>
     </div>
   );
