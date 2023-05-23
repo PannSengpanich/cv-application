@@ -1,0 +1,13 @@
+.topic {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #f3f0ea;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+.head {
+  font-weight: bold;
+}
+.detail {
+  margin-bottom: 15px;
+}

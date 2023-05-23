@@ -9,6 +9,7 @@ export const InfoData = {
   website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
 };
 export const TechData = [
+  { topic: "TECHNOLOGIES" },
   {
     head: "Languages:",
     details: "JavaScript, Java, Python, HTML ,CSS",
@@ -25,6 +26,7 @@ export const TechData = [
   },
 ];
 export const EdData = [
+  { topic: "EDUCATION" },
   {
     head: "ISE (International School of Engineering)",
     details:
@@ -40,6 +42,7 @@ export const EdData = [
   },
 ];
 export const ProjActData = [
+  { topic: "PROJECTS & ACTIVITIES" },
   {
     head: "10 Days Projects by THINC (assist as backend)",
     details:
@@ -66,6 +69,7 @@ export const ProjActData = [
   },
 ];
 export const MisData = [
+  { topic: "MISCELLANEOUS" },
   {
     head: "Complete The Odin Project Foundation Course",
     details:
@@ -87,7 +91,16 @@ export const MisData = [
 ];
 export const CerData = [];
 export const IntLangData = [
-  "INTERESTS: Web Developer, Frontend & Backend, Metaverse, Stock Market, Cryptocurrency, and Music ",
-  "LANGUAGE: Fluent in Thai and English, basic Chinese",
-  "Music: 'Change is always happening, That's one of the beautiful things about jazz music' -Maynard Ferguson",
+  { topic: "INTERESTS & LANGUAGES" },
+  {
+    head: "Interests:",
+    details:
+      "Web Developer, Frontend & Backend, Metaverse, Stock Market, Cryptocurrency, and Music ",
+  },
+  { head: "Languages:", details: "Fluent in Thai and English, basic Chinese" },
+  {
+    head: "Music:",
+    details:
+      "Change is always happening, That's one of the beautiful things about jazz music' -Maynard Ferguson",
+  },
 ];
