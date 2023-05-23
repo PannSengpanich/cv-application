@@ -8,19 +8,26 @@ export default function GeneralInfo(props) {
         <div className={styles.nickname}>({props.info.nickname})</div>
       </div>
       <div className={styles.right}>
-        <a href={`tel:${props.info.phone}`}>{props.info.phone}</a>
-        <a className={styles.rightInfo} href={`mailto:${props.info.email}`}>
-          {props.info.email}
-        </a>
+        <div>
+          <a href={`tel:${props.info.phone}`}>{props.info.phone}</a>
+        </div>
+        <div>
+          <a className={styles.rightInfo} href={`mailto:${props.info.email}`}>
+            {props.info.email}
+          </a>
+        </div>
         <div>
           <a href={`https://github.com/${props.info.github}`}>GitHub</a>
         </div>
-
-        <a href={`https://www.linkedin.com/in/${props.info.linkedin}`}>
-          LinkedIn
-        </a>
+        <div>
+          <a href={`https://www.linkedin.com/in/${props.info.linkedin}`}>
+            LinkedIn
+          </a>
+        </div>
         <div className={styles.rightInfo}>Location: {props.info.location}</div>
-        <a href={`https://www.youtube.com/watch?v=video-id`}>Youtube</a>
+        <div>
+          <a href={`https://www.youtube.com/watch?v=video-id`}>Youtube</a>
+        </div>
       </div>
     </div>
   );

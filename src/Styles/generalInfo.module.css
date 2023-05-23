@@ -1,6 +1,7 @@
 .generalInfo {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 .right {
   display: flex;
@@ -9,7 +10,7 @@
 }
 .name {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .nickname {
   font-size: 1.4rem;

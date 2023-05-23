@@ -23,8 +23,9 @@ function App() {
       <ContentInfo info={EdData}></ContentInfo>
       <ContentInfo info={ProjActData}></ContentInfo>
       <ContentInfo info={MisData}></ContentInfo>
-      <Certifications info={CerData}></Certifications>
+
       <ContentInfo info={IntLangData}></ContentInfo>
+      <Certifications info={CerData}></Certifications>
     </div>
   );
 }

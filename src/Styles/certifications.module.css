@@ -1,0 +1,21 @@
+.topic {
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #f3f0ea;
+  padding: 5px 0px 5px 10px;
+  margin: 15px 0px 20px 0px;
+}
+a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+img {
+  display: inline-block;
+  width: 268px;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+}
