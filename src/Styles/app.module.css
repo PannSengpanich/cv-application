@@ -27,9 +27,7 @@
     margin: 0;
     padding: 0;
   }
-  .generalInfo {
-    grid-column: 1/3;
-  }
+
   .techInfo {
     grid-column: 1/2;
   }
