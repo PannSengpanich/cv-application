@@ -5,6 +5,16 @@
   min-width: 900px;
   margin: 50px 20vw;
   gap: 10px;
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in forwards;
+}
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @media print {
   * {

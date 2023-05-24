@@ -4,8 +4,17 @@ form {
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 5px;
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in forwards;
 }
-
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 fieldset {
   border: none;
   padding: 0;
