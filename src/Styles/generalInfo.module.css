@@ -7,22 +7,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-size: 1.2rem;
 }
 .name {
   font-weight: bold;
   font-size: 4rem;
 }
 .nickname {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 a {
   color: black;
-}
-@media print {
-  .topic {
-    border-bottom: 1px solid grey;
-  }
-  .generalInfo {
-    grid-column: 1/3;
-  }
 }
