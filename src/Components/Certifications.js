@@ -5,7 +5,7 @@ import responsiveDesignCertImage from "../images/fcc-ResponsiveDesign.jpg";
 
 export default function Certifications(props) {
   return (
-    <div className={styles.content}>
+    <div className={`${styles.content} ${props.className}`}>
       <div className={styles.topic}>CERTIFICATIONS</div>
       <div className={styles.container}>
         <div className={styles.object}>

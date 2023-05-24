@@ -15,7 +15,11 @@ img {
   width: 268px;
   height: 200px;
 }
-
 .container {
   display: flex;
+}
+@media print {
+  .topic {
+    border-bottom: 1px solid grey;
+  }
 }

@@ -30,17 +30,17 @@ export const EdData = [
   {
     head: "ISE (International School of Engineering)",
     details: "ICE (Information and Communication Engineering) (GPAX 3.44)",
-    date: "August 2022-Present",
+    date: "August 2022 - Present",
   },
   {
     head: "ISE (International School of Engineering)",
     details: "AERO (Aerospace Engineering)",
-    date: "August 2020-August 2022",
+    date: "August 2020 - August 2022",
   },
   {
     head: "Saint Gabriel's College",
     details: "Math & Science March 2008-March 2020 (GPAX: 3.94)",
-    date: "2008-March 2020",
+    date: "March 2008 - March 2020",
   },
 ];
 export const ProjActData = [
@@ -51,6 +51,7 @@ export const ProjActData = [
     details:
       "Conducted a thorough analysis of drug usage data among citizens of varying ages and educational backgrounds. The focus was on individuals with diverse educational backgrounds and the examination of drug consumption trends and patterns among them. The correlation between personality measurements (The Big Five personality) and drug consumption was also analyzed using Python, MongoDB, Pandas/Plotly/Seaborn. The data was collected and stored in a .csv file format.",
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
+    date: "Oct 2022",
   },
   {
     head: "Advance Computer Programming Last Class Demo  ",
@@ -59,9 +60,10 @@ export const ProjActData = [
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
   },
   {
-    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021 (Awarded on: 27 April 2021)",
+    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
     details:
       "This project was launched to reduce plastic waste and pollution associated with PM2.5 during the fourth quarter of 2020. The project resulted in the creation of a prototype for a reusable lunch box, which was achieved by inquiring information from food delivery bikers regarding the dimensions and materials of lunch boxes. ",
+    date: "(Awarded on: 27 April 2021)",
   },
 ];
 export const MisData = [
@@ -100,3 +102,13 @@ export const IntLangData = [
       "Change is always happening, That's one of the beautiful things about jazz music' -Maynard Ferguson",
   },
 ];
+
+export const data = {
+  InfoData,
+  TechData,
+  EdData,
+  ProjActData,
+  MisData,
+  IntLangData,
+  CerData,
+};

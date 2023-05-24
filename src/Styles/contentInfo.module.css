@@ -33,6 +33,12 @@ button:hover {
   margin: 0px 10px 0px 15px;
 }
 .url {
+  height: auto;
   font-weight: bold;
   margin: 0px 10px 0px 15px;
+}
+@media print {
+  .topic {
+    border-bottom: 1px solid grey;
+  }
 }

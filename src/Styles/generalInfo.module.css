@@ -18,3 +18,11 @@
 a {
   color: black;
 }
+@media print {
+  .topic {
+    border-bottom: 1px solid grey;
+  }
+  .generalInfo {
+    grid-column: 1/3;
+  }
+}

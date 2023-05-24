@@ -4,15 +4,19 @@ import styles from "../Styles/contentInfo.module.css";
 
 export default function ContentInfo(props) {
   const [isForm, setIsForm] = useState(false);
-  function FormHandler() {
-    setIsForm(true);
+  function FormEditHandler() {
+    setIsForm(!isForm);
+  }
+  function formSubmitHandler(newInfo) {
+    setIsForm(false);
+    props.updateInfo(newInfo);
   }
   return (
-    <>
+    <div className={props.className}>
       <div className={styles.content}>
         <div className={styles.topic}>
           {props.info[0].topic}{" "}
-          <button id={props.info[0].topic} onClick={FormHandler}>
+          <button id={props.info[0].topic} onClick={FormEditHandler}>
             Edit
           </button>
         </div>
@@ -26,7 +30,7 @@ export default function ContentInfo(props) {
                 </div>
                 <div className={styles.detail}>{item.details}</div>
                 {item.url && (
-                  <a href={item.url} className={styles.url}>
+                  <a href={item.url} className={styles.url} target="_blank">
                     Click Here
                   </a>
                 )}
@@ -35,7 +39,9 @@ export default function ContentInfo(props) {
           </>
         ))}
       </div>
-      {isForm === true && <Form formInfo={props.info}></Form>}
-    </>
+      {isForm === true && (
+        <Form formInfo={props.info} formSubmit={formSubmitHandler}></Form>
+      )}
+    </div>
   );
 }
