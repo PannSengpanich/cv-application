@@ -6,7 +6,7 @@
   font-size: 2rem;
   background-color: #f3f0ea;
   padding: 5px 0px 5px 10px;
-  margin: 15px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 button {
   width: 100px;
@@ -25,17 +25,25 @@ button:hover {
 .head {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin: 15px 15px 5px 15px;
 }
+.headRight {
+  color: grey;
+}
+.org {
+  font-size: 1rem;
+  margin: 0px 10px 5px 15px;
+}
+
 span {
   font-size: 1.5rem;
 }
 
 .detail {
   font-size: 1.2rem;
-  margin: 0px 10px 0px 15px;
+  margin: 0px 10px 5px 15px;
 }
 .url {
   height: auto;

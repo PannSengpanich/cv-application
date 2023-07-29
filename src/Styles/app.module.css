@@ -2,11 +2,10 @@
   display: grid;
   justify-content: center;
   grid-auto-rows: auto;
-  min-width: 900px;
   margin: 50px 20vw;
   gap: 10px;
   opacity: 0;
-  animation: fadeInAnimation 1s ease-in forwards;
+  animation: fadeInAnimation 0.5s ease-in forwards;
 }
 @keyframes fadeInAnimation {
   from {
@@ -18,11 +17,12 @@
 }
 @media print {
   * {
-    font-size: 0.65rem;
+    font-size: 12px;
   }
 
   .mainContainer {
     grid-template-columns: 450px 450px;
+    min-width: 900px;
     grid-auto-rows: auto;
     margin: 0;
     padding: 0;

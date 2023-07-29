@@ -25,6 +25,18 @@ export const TechData = [
       "Webpack, Github, VSCode, Eclipse, Google Colab, Microsoft Office, Figma, Canva",
   },
 ];
+export const WorkData = [
+  { topic: "WORK EXPERIENCE" },
+  {
+    head: "Front-End Developer",
+    organization: "Gulf JP CRN Co., Ltd",
+    details: [
+      "Fixed bugs and component errors in the land management website",
+      "Developed a new machine learning website using new designs from the UX/UI team, and translated the .php code into React.",
+    ],
+    date: "June 2023 - July 2023",
+  },
+];
 export const EdData = [
   { topic: "EDUCATION" },
   {
@@ -49,7 +61,7 @@ export const ProjActData = [
   {
     head: "Advance Computer Programming Project 1",
     details:
-      "Conducted a thorough analysis of drug usage data among citizens of varying ages and educational backgrounds. The focus was on individuals with diverse educational backgrounds and the examination of drug consumption trends and patterns among them. The correlation between personality measurements (The Big Five personality) and drug consumption was also analyzed using Python, MongoDB, Pandas/Plotly/Seaborn. The data was collected and stored in a .csv file format.",
+      "Analyzed drug usage data among various age and education groups, focusing on consumption patterns. Investigated correlations between The Big Five personality traits and drug use using Python, MongoDB, and Pandas/Plotly/Seaborn. Data stored in .csv format.",
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
   },
@@ -58,6 +70,7 @@ export const ProjActData = [
     details:
       "Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
+    date: "Dec 2022",
   },
   {
     head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
@@ -69,9 +82,9 @@ export const ProjActData = [
 export const MisData = [
   { topic: "MISCELLANEOUS" },
   {
-    head: "Complete The Odin Project Foundation Course",
+    head: "The Odin Project Foundation Course",
     details:
-      "An intensive and comprehensive online program that focuses on teaching fundamental web development skills. Practical experience and knowledge in HTML, CSS, JavaScript, Git, and command line were gained throughout the course. Also, the ability to create responsive websites, design user interfaces, and manage projects using various web development tools was developed. Several hands-on projects were completed that helped sharpen problem-solving skills and understand best practices in web development. (all projects were created in my GitHub's repositories below)",
+      "The online course delivered extensive web development training, including HTML, CSS, JavaScript, and Git. It honed skills for building responsive websites, UI design, project management, and problem-solving. Projects are available on my GitHub repositories. (all projects were created in my GitHub's repositories below)",
     url: "https://github.com/PannSengpanich?tab=repositories",
   },
   {
@@ -83,7 +96,7 @@ export const MisData = [
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details:
-      "Learned about investment including social entrepreneurship, cryptocurrency, digital assets, business, and consumer trend analysis.Also visited the Stock Exchange of Thailand to obtain knowledge of the origins of stocks and receive education on financial planning for the future. During the visit, skills necessary to invest in various assets besides depositing money in a bank were also acquired.",
+      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
     url: "",
   },
 ];
@@ -106,6 +119,7 @@ export const IntLangData = [
 export const data = {
   InfoData,
   TechData,
+  WorkData,
   EdData,
   ProjActData,
   MisData,

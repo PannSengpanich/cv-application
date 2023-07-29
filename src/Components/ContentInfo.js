@@ -14,20 +14,24 @@ export default function ContentInfo(props) {
   return (
     <div className={props.className}>
       <div className={styles.content}>
-        <div className={styles.topic}>
-          {props.info[0].topic}{" "}
-          <button id={props.info[0].topic} onClick={FormEditHandler}>
-            Edit
-          </button>
-        </div>
+        <div className={styles.topic}>{props.info[0].topic} </div>
         {props.info.map((item, index) => (
           <>
             {index !== 0 && (
               <>
                 <div className={styles.head}>
-                  {item.head}
-                  {item.date && <span>{item.date}</span>}
+                  <div className={styles.headLeft}>{item.head}</div>
+                  <div className={styles.headRight}>
+                    {item.date && <div>{item.date}</div>}
+                  </div>
                 </div>
+                {item.organization ? (
+                  <>
+                    <div className={styles.org}>{item.organization}</div>
+                  </>
+                ) : (
+                  <></>
+                )}
                 <div className={styles.detail}>{item.details}</div>
                 {item.url && (
                   <a href={item.url} className={styles.url} target="_blank">

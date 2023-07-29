@@ -3,16 +3,7 @@ import React, { useState } from "react";
 import Certifications from "./Components/Certifications";
 import GeneralInfo from "./Components/GeneralInfo";
 import ContentInfo from "./Components/ContentInfo";
-import {
-  InfoData,
-  TechData,
-  EdData,
-  ProjActData,
-  MisData,
-  CerData,
-  IntLangData,
-  data,
-} from "./data";
+import { data } from "./data";
 
 import styles from "./Styles/app.module.css";
 
@@ -35,6 +26,11 @@ function App() {
         info={currentData.TechData}
         className={styles.techInfo}
         updateInfo={(newData) => updateData("TechData", newData)}
+      ></ContentInfo>
+      <ContentInfo
+        info={currentData.WorkData}
+        className={styles.workInfo}
+        updateInfo={(newData) => updateData("WorkData", newData)}
       ></ContentInfo>
       <ContentInfo
         info={currentData.EdData}
