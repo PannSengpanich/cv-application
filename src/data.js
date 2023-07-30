@@ -54,7 +54,7 @@ export const EdData = [
   { topic: "EDUCATION" },
   {
     head: "ISE (International School of Engineering)",
-    details: "ICE (Information and Communication Engineering) (GPAX 3.44)",
+    details: "ICE (Information and Communication Engineering) (GPAX 3.51)",
     date: "August 2022 - Present",
   },
   {
