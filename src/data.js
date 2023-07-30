@@ -12,17 +12,30 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     head: "Languages:",
-    details: "JavaScript, Java, Python, HTML ,CSS",
+    details: "JavaScript, Java, Python, HTML ,CSS, SCSS",
   },
   {
     head: "Frameworks:",
     details:
-      "Node.js, Jest, Angular, React, Ionic, MongoDB, Pandas/Plotly/Seaborn",
+      "Node.js, Jest, Angular, React, Redux, Ionic, MongoDB, Pandas/Plotly/Seaborn",
   },
   {
     head: "Tools:",
     details:
       "Webpack, Github, VSCode, Eclipse, Google Colab, Microsoft Office, Figma, Canva",
+  },
+];
+export const IntLangData = [
+  { topic: "INTERESTS & LANGUAGES" },
+  {
+    head: "Interests:",
+    details:
+      "Web Developer, Data Scientist, Stock Market, Cryptocurrency, Metaverse, and Music ",
+  },
+  { head: "Languages:", details: "Fluent in Thai and English, basic Chinese" },
+  {
+    head: "Hobbies:",
+    details: "Practice new coding languages and frameworks, practice music",
   },
 ];
 export const WorkData = [
@@ -55,6 +68,7 @@ export const EdData = [
     date: "March 2008 - March 2020",
   },
 ];
+
 export const ProjActData = [
   { topic: "PROJECTS & ACTIVITIES" },
 
@@ -101,20 +115,6 @@ export const MisData = [
   },
 ];
 export const CerData = [];
-export const IntLangData = [
-  { topic: "INTERESTS & LANGUAGES" },
-  {
-    head: "Interests:",
-    details:
-      "Web Developer, Frontend & Backend, Metaverse, Stock Market, Cryptocurrency, and Music ",
-  },
-  { head: "Languages:", details: "Fluent in Thai and English, basic Chinese" },
-  {
-    head: "Music:",
-    details:
-      "Change is always happening, That's one of the beautiful things about jazz music' -Maynard Ferguson",
-  },
-];
 
 export const data = {
   InfoData,

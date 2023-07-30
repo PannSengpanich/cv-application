@@ -28,6 +28,11 @@ function App() {
         updateInfo={(newData) => updateData("TechData", newData)}
       ></ContentInfo>
       <ContentInfo
+        info={currentData.IntLangData}
+        className={styles.intLangInfo}
+        updateInfo={(newData) => updateData("IntLangData", newData)}
+      ></ContentInfo>
+      <ContentInfo
         info={currentData.WorkData}
         className={styles.workInfo}
         updateInfo={(newData) => updateData("WorkData", newData)}
@@ -37,6 +42,7 @@ function App() {
         className={styles.edInfo}
         updateInfo={(newData) => updateData("EdData", newData)}
       ></ContentInfo>
+
       <ContentInfo
         info={currentData.ProjActData}
         className={styles.projActInfo}
@@ -47,11 +53,7 @@ function App() {
         className={styles.misInfo}
         updateInfo={(newData) => updateData("MisData", newData)}
       ></ContentInfo>
-      <ContentInfo
-        info={currentData.IntLangData}
-        className={styles.intLangInfo}
-        updateInfo={(newData) => updateData("IntLangData", newData)}
-      ></ContentInfo>
+
       <Certifications
         info={currentData.CerData}
         className={styles.cerInfo}

@@ -30,11 +30,13 @@ button:hover {
   margin: 15px 15px 5px 15px;
 }
 .headRight {
-  color: grey;
+  color: #595959;
 }
 .org {
-  font-size: 1rem;
-  margin: 0px 10px 5px 15px;
+  font-size: 1.2rem;
+  margin: 10px 10px 5px 15px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 span {
@@ -53,5 +55,13 @@ span {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
+    font-size: 1.2rem;
+  }
+  .head,
+  .org {
+    font-size: 1rem;
+  }
+  .detail {
+    font-size: 0.8rem;
   }
 }

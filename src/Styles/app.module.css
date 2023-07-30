@@ -16,10 +16,6 @@
   }
 }
 @media print {
-  * {
-    font-size: 12px;
-  }
-
   .mainContainer {
     grid-template-columns: 450px 450px;
     min-width: 900px;
@@ -31,16 +27,25 @@
   .techInfo {
     grid-column: 1/2;
   }
+  .intLangInfo {
+    grid-column: 2/3;
+  }
+  .workInfo {
+    grid-column: 1/2;
+  }
   .edInfo {
     grid-column: 2/3;
   }
+
   .projActInfo,
   .misInfo,
-  .intLangInfo,
-  .cerInfo {
+  .generalInfo {
     grid-column: 1/3;
   }
   button {
+    display: none;
+  }
+  .cerInfo {
     display: none;
   }
 }

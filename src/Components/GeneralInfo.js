@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../Styles/generalInfo.module.css";
 export default function GeneralInfo(props) {
   return (
-    <div className={`${styles.generalInfo} }`}>
+    <div className={`${styles.generalInfo} ${props.className} }`}>
       <div className={styles.left}>
         <div className={styles.name}>{props.info.name}</div>
         <div className={styles.nickname}>({props.info.nickname})</div>

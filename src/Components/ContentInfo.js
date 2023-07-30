@@ -11,6 +11,7 @@ export default function ContentInfo(props) {
     setIsForm(false);
     props.updateInfo(newInfo);
   }
+  console.log(props.info.details);
   return (
     <div className={props.className}>
       <div className={styles.content}>
@@ -32,7 +33,16 @@ export default function ContentInfo(props) {
                 ) : (
                   <></>
                 )}
-                <div className={styles.detail}>{item.details}</div>
+                {Array.isArray(item.details) ? (
+                  <ul>
+                    {item.details.map((detail) => {
+                      return <li className={styles.detail}>{detail}</li>;
+                    })}
+                  </ul>
+                ) : (
+                  <div className={styles.detail}>{item.details}</div>
+                )}
+
                 {item.url && (
                   <a href={item.url} className={styles.url} target="_blank">
                     Click Here
