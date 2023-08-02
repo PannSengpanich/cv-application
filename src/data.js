@@ -17,12 +17,12 @@ export const TechData = [
   {
     head: "Frameworks:",
     details:
-      "Node.js, Jest, Angular, React, Redux, Ionic, MongoDB, Pandas/Plotly/Seaborn",
+      "React, Redux, Node.js, Jest, Angular, Ionic, MongoDB, Pandas, Plotly, Seaborn",
   },
   {
     head: "Tools:",
     details:
-      "Webpack, Github, VSCode, Eclipse, Google Colab, Microsoft Office, Figma, Canva",
+      "Github, VSCode, Eclipse, Webpack, Google Colab, Microsoft Office, Figma, Canva",
   },
 ];
 export const IntLangData = [
@@ -30,7 +30,7 @@ export const IntLangData = [
   {
     head: "Interests:",
     details:
-      "Web Developer, Data Scientist, Stock Market, Cryptocurrency, Metaverse, and Music ",
+      "Data Scientist, Web Developer, Software Engineer, Stock Market, Cryptocurrency, Metaverse, and Music ",
   },
   { head: "Languages:", details: "Fluent in Thai and English, basic Chinese" },
   {
@@ -44,8 +44,8 @@ export const WorkData = [
     head: "Front-End Developer",
     organization: "Gulf JP CRN Co., Ltd",
     details: [
-      "Fixed bugs and component errors in the land management website",
-      "Developed a new machine learning website using new designs from the UX/UI team, and translated the .php code into React.",
+      "Fixed bugs and component errors in the land management website.",
+      "Developed and deployed a new machine learning website by incorporating newly-designed pages from the UX/UI team, fetching new API lines from the back-end team, and translating the existing PHP code into React.",
     ],
     date: "June 2023 - July 2023",
   },
@@ -55,17 +55,17 @@ export const EdData = [
   {
     head: "ISE (International School of Engineering)",
     details: "ICE (Information and Communication Engineering) (GPAX 3.51)",
-    date: "August 2022 - Present",
+    date: "2022-Present",
   },
   {
     head: "ISE (International School of Engineering)",
     details: "AERO (Aerospace Engineering)",
-    date: "August 2020 - August 2022",
+    date: "2020-2022",
   },
   {
     head: "Saint Gabriel's College",
     details: "Math & Science March 2008-March 2020 (GPAX: 3.94)",
-    date: "March 2008 - March 2020",
+    date: "2008-2020",
   },
 ];
 
