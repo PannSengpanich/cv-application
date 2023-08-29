@@ -71,47 +71,52 @@ export const EdData = [
 
 export const ProjActData = [
   { topic: "PROJECTS & ACTIVITIES" },
-
+  {
+    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
+    details:
+      "- This project was launched to reduce plastic waste and pollution associated with PM2.5 during the fourth quarter of 2020. The project resulted in the creation of a prototype for a reusable lunch box, which was achieved by inquiring information from food delivery bikers regarding the dimensions and materials of lunch boxes. ",
+    date: "(Awarded on: 27 April 2021)",
+  },
   {
     head: "Advance Computer Programming Project 1",
     details:
-      "Analyzed drug usage data among various age and education groups, focusing on consumption patterns. Investigated correlations between The Big Five personality traits and drug use using Python, MongoDB, and Pandas/Plotly/Seaborn. Data stored in .csv format.",
+      "- Analyzed drug usage data among various age and education groups, focusing on consumption patterns. Investigated correlations between The Big Five personality traits and drug use using Python, MongoDB, and Pandas/Plotly/Seaborn. Data stored in .csv format.",
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
   },
   {
     head: "Advance Computer Programming Last Class Demo  ",
     details:
-      "Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
+      "- Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
-  },
-  {
-    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
-    details:
-      "This project was launched to reduce plastic waste and pollution associated with PM2.5 during the fourth quarter of 2020. The project resulted in the creation of a prototype for a reusable lunch box, which was achieved by inquiring information from food delivery bikers regarding the dimensions and materials of lunch boxes. ",
-    date: "(Awarded on: 27 April 2021)",
   },
 ];
 export const MisData = [
   { topic: "MISCELLANEOUS" },
   {
-    head: "The Odin Project Foundation Course",
+    head: "TrueLAB Hackathon x Mordee (participated)",
     details:
-      "The online course delivered extensive web development training, including HTML, CSS, JavaScript, and Git. It honed skills for building responsive websites, UI design, project management, and problem-solving. Projects are available on my GitHub repositories. (all projects were created in my GitHub's repositories below)",
-    url: "https://github.com/PannSengpanich?tab=repositories",
+      "- Formed a 5-member team and devised new ideas for additional features or improvements to the Mordee application, a telemedicine platform enabling patients to consult with doctors online. Also worked as a UI/UX designer, responsible for designing the interface for the app's innovative features.",
+    url: "",
   },
   {
-    head: "Senior Pianist and Chief of CUBAND pianist ",
+    head: "Chief of CUBAND pianist 2022  ",
     details:
-      "Managed and assigned work to each of the pianists' member and provided advices to the team.",
+      "- Managed and assigned work to each of the pianists' members, provided advices to the team.",
     url: "",
   },
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details:
-      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+      "- Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
     url: "",
+  },
+  {
+    head: "The Odin Project Foundation Course",
+    details:
+      "- The online course delivered extensive web development training, including HTML, CSS, JavaScript, and Git. It honed skills for building responsive websites, UI design, project management, and problem-solving. Projects are available on my GitHub repositories. (all projects were created in my GitHub's repositories below)",
+    url: "https://github.com/PannSengpanich?tab=repositories",
   },
 ];
 export const CerData = [];
