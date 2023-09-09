@@ -3,10 +3,10 @@ export const InfoData = {
   nickname: "Pann",
   phone: "091-803-7803",
   email: "sengpanichpann@gmail.com",
-  github: "PannSengpanich",
-  linkedin: "pann-sengpanich-978bb1262/",
+  // github: "PannSengpanich",
+  // linkedin: "pann-sengpanich-978bb1262/",
   location: "Bangkok, Thailand",
-  website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
+  // website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
 };
 export const TechData = [
   { topic: "TECHNOLOGIES" },
@@ -30,12 +30,13 @@ export const IntLangData = [
   {
     head: "Interests:",
     details:
-      "Data Scientist, Web Developer, Software Engineer, Stock Market, Cryptocurrency, Metaverse, and Music ",
+      "Data Science, Stock Market, Investment, Cryptocurrency, Metaverse, and Music ",
   },
   { head: "Languages:", details: "Fluent in Thai and English, basic Chinese" },
   {
     head: "Hobbies:",
-    details: "Practice new coding languages and frameworks, practice music",
+    details:
+      "Hanging out, playing musical instruments with friends, and watching movies",
   },
 ];
 export const WorkData = [
@@ -72,10 +73,11 @@ export const EdData = [
 export const ProjActData = [
   { topic: "PROJECTS & ACTIVITIES" },
   {
-    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
+    head: "Advance Computer Programming Last Class Demo  ",
     details:
-      "- This project was launched to reduce plastic waste and pollution associated with PM2.5 during the fourth quarter of 2020. The project resulted in the creation of a prototype for a reusable lunch box, which was achieved by inquiring information from food delivery bikers regarding the dimensions and materials of lunch boxes. ",
-    date: "(Awarded on: 27 April 2021)",
+      "- Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
+    url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
+    date: "Dec 2022",
   },
   {
     head: "Advance Computer Programming Project 1",
@@ -85,11 +87,10 @@ export const ProjActData = [
     date: "Oct 2022",
   },
   {
-    head: "Advance Computer Programming Last Class Demo  ",
+    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
     details:
-      "- Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
-    url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
-    date: "Dec 2022",
+      "- This project was launched to reduce plastic waste and pollution associated with PM2.5 during the fourth quarter of 2020. The project resulted in the creation of a prototype for a reusable lunch box, which was achieved by inquiring information from food delivery bikers regarding the dimensions and materials of lunch boxes. ",
+    date: "(Awarded on: 27 April 2021)",
   },
 ];
 export const MisData = [
@@ -101,15 +102,15 @@ export const MisData = [
     url: "",
   },
   {
-    head: "Chief of CUBAND pianist 2022  ",
-    details:
-      "- Managed and assigned work to each of the pianists' members, provided advices to the team.",
-    url: "",
-  },
-  {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details:
       "- Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+    url: "",
+  },
+  {
+    head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
+    details:
+      "- Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
     url: "",
   },
   {
