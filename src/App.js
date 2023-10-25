@@ -26,7 +26,7 @@ function App() {
         info={currentData.TechData}
         className={styles.techInfo}
         updateInfo={(newData) => updateData("TechData", newData)}
-      ></ContentInfo>
+      ></ContentInfo>{" "}
       <ContentInfo
         info={currentData.EdData}
         className={styles.edInfo}
@@ -42,7 +42,6 @@ function App() {
         className={styles.workInfo}
         updateInfo={(newData) => updateData("WorkData", newData)}
       ></ContentInfo>
-
       <ContentInfo
         info={currentData.ProjActData}
         className={styles.projActInfo}
@@ -53,7 +52,6 @@ function App() {
         className={styles.misInfo}
         updateInfo={(newData) => updateData("MisData", newData)}
       ></ContentInfo>
-
       <Certifications
         info={currentData.CerData}
         className={styles.cerInfo}

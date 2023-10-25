@@ -16,18 +16,20 @@ export default function GeneralInfo(props) {
             {props.info.email}
           </a>
         </div>
-        {/* <div>
+        <div>
           <a href={`https://github.com/${props.info.github}`}>GitHub</a>
         </div>
         <div>
           <a href={`https://www.linkedin.com/in/${props.info.linkedin}`}>
             LinkedIn
           </a>
-        </div> */}
+        </div>
         <div className={styles.rightInfo}>{props.info.location}</div>
-        {/* <div>
-          <a href={`https://www.youtube.com/watch?v=video-id`}>Youtube</a>
-        </div> */}
+        <div>
+          <a href={`https://youtube.com/@psvibes9255?si=cEsnA0B4gf8Vs2Fz`}>
+            Youtube
+          </a>
+        </div>
       </div>
     </div>
   );

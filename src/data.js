@@ -3,10 +3,10 @@ export const InfoData = {
   nickname: "Pann",
   phone: "091-803-7803",
   email: "sengpanichpann@gmail.com",
-  // github: "PannSengpanich",
-  // linkedin: "pann-sengpanich-978bb1262/",
+  github: "PannSengpanich",
+  linkedin: "pann-sengpanich-978bb1262/",
   location: "Bangkok, Thailand",
-  // website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
+  website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
 };
 export const TechData = [
   { topic: "TECHNOLOGIES" },
