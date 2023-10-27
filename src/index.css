@@ -1,5 +1,5 @@
 body {
-  margin: 50px 20vw 50px 20vw;
+  margin: 50px 15vw 50px 15vw;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -22,6 +22,9 @@ code {
 @media only screen and (max-width: 480px) {
   body {
     margin: 0px;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
   }
   #root {
     margin: 10px;
