@@ -75,21 +75,21 @@ export const ProjActData = [
   {
     head: "TensorFlow 2.0 Project ",
     details:
-      "- Utilizing historical loan data that includes details on borrower defaults (charge-offs), developed a predictive model to assess the likelihood of a borrower repaying their loan. This model aims to assist in evaluating potential customers in the future, providing insights into their probability of loan repayment. I implemented classification metrics to effectively evaluate and measure the performance of the predictive model.",
+      "- Created a predictive model using historical loan data and employed classification metrics with NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess the likelihood of borrower repayment for future customers.",
     url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
     date: "Nov 2023",
   },
   {
     head: "Advance Computer Programming Project 1",
     details:
-      "- Analyzed drug usage data among various age and education groups, focusing on consumption patterns. Investigated correlations between The Big Five personality traits and drug use using Python, MongoDB, and Pandas/Plotly/Seaborn. Data stored in .csv format.",
+      "- Examined drug usage patterns across age and education groups, exploring correlations between The Big Five personality traits and drug use, utilizing Python, MongoDB, and Pandas/Plotly/Seaborn on CSV-formatted data.",
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
   },
   {
     head: "Advance Computer Programming Last Class Demo  ",
     details:
-      "- Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
+      "- Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
   },
@@ -97,7 +97,7 @@ export const ProjActData = [
   {
     head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
     details:
-      "- This project was launched to reduce plastic waste and pollution associated with PM2.5 during the fourth quarter of 2020. The project resulted in the creation of a prototype for a reusable lunch box, which was achieved by inquiring information from food delivery bikers regarding the dimensions and materials of lunch boxes. ",
+      "- This project aimed to mitigate plastic waste and PM2.5 pollution.Culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
     date: "(Awarded on: 27 April 2021)",
   },
 ];
@@ -110,6 +110,12 @@ export const MisData = [
     url: "",
   },
   {
+    head: "The Odin Project Foundation Course",
+    details:
+      "- Completed an online web development course covering HTML, CSS, JavaScript, and Git, refining skills in responsive design, UI, project management, and problem-solving, with projects showcased on my GitHub repositories.",
+    url: "https://github.com/PannSengpanich?tab=repositories",
+  },
+  {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details:
       "- Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
@@ -120,12 +126,6 @@ export const MisData = [
     details:
       "- Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
     url: "",
-  },
-  {
-    head: "The Odin Project Foundation Course",
-    details:
-      "- The online course delivered extensive web development training, including HTML, CSS, JavaScript, and Git. It honed skills for building responsive websites, UI design, project management, and problem-solving. Projects are available on my GitHub repositories. (all projects were created in my GitHub's repositories below)",
-    url: "https://github.com/PannSengpanich?tab=repositories",
   },
 ];
 export const CerData = [];
