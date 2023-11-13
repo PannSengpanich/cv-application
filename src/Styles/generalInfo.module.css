@@ -27,9 +27,10 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-  * {
+  .generalInfo {
     font-size: 0.8rem;
   }
+
   .mainContainer {
     overflow: auto;
   }

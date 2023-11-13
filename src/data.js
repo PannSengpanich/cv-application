@@ -12,17 +12,17 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     head: "Languages:",
-    details: "JavaScript, Java, Python, HTML ,CSS, SCSS",
+    details: "Python, Java, JavaScript, HTML ,CSS, SCSS",
   },
   {
     head: "Frameworks:",
     details:
-      "React, Redux, Node.js, Jest, Angular, Ionic, MongoDB, Pandas, Plotly, Seaborn",
+      "NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, Ionic, MongoDB,",
   },
   {
     head: "Tools:",
     details:
-      "Github, VSCode, Eclipse, Webpack, Google Colab, Microsoft Office, Figma, Canva",
+      "Github, Google Colab, Anaconda Navigator, VSCode, Eclipse, Webpack, Microsoft Office, Figma, Canva",
   },
 ];
 export const IntLangData = [
@@ -73,11 +73,11 @@ export const EdData = [
 export const ProjActData = [
   { topic: "PROJECTS & ACTIVITIES" },
   {
-    head: "Advance Computer Programming Last Class Demo  ",
+    head: "TensorFlow 2.0 Project ",
     details:
-      "- Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
-    url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
-    date: "Dec 2022",
+      "- Utilizing historical loan data that includes details on borrower defaults (charge-offs), developed a predictive model to assess the likelihood of a borrower repaying their loan. This model aims to assist in evaluating potential customers in the future, providing insights into their probability of loan repayment. I implemented classification metrics to effectively evaluate and measure the performance of the predictive model.",
+    url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
+    date: "Nov 2023",
   },
   {
     head: "Advance Computer Programming Project 1",
@@ -86,6 +86,14 @@ export const ProjActData = [
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
   },
+  {
+    head: "Advance Computer Programming Last Class Demo  ",
+    details:
+      "- Designed a prototype for a weather provider app interface for a website linked to a weather URL. The app was capable of displaying the temperature for each time point on a daily basis using TypeScript, SCSS, JavaScript, HTML, and Angular as the coding languages.",
+    url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
+    date: "Dec 2022",
+  },
+
   {
     head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
     details:
