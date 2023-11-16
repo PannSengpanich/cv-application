@@ -55,11 +55,11 @@ span {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .head,
   .org {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .detail {
     font-size: 0.8rem;

@@ -21,6 +21,7 @@ img {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
+    font-size: 1.6rem;
   }
 }
 @media only screen and (max-width: 932px) {

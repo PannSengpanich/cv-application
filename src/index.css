@@ -19,7 +19,7 @@ code {
     width: 100%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 932px) {
   body {
     margin: 0px;
     overflow: auto;
