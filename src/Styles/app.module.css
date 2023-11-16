@@ -3,6 +3,7 @@
   /* justify-content: center; */
   grid-auto-rows: auto;
   width: 100%;
+  height: 100%;
   gap: 10px;
   opacity: 0;
   animation: fadeInAnimation 0.5s ease-in forwards;
@@ -28,25 +29,26 @@
   }
 
   .techInfo {
-    grid-column: 1/2;
+    /* grid-column: 1/2; */
     /* display: none; */
-    /* grid-column: 1/3; */
+    grid-column: 1/3;
   }
   .intLangInfo {
     display: none;
 
-    grid-column: 2/3;
-    /* grid-column: 1/3; */
+    /* grid-column: 2/3; */
+    grid-column: 1/3;
   }
   .workInfo {
     /* grid-column: 1/2; */
     grid-column: 1/3;
   }
   .edInfo {
-    grid-column: 2/3;
+    grid-column: 1/3;
+    /* grid-column: 2/3; */
   }
 
-  .projActInfo,
+  .projInfo,
   .misInfo,
   .generalInfo,
   .cerInfo {
@@ -56,16 +58,16 @@
     /* display: none; */
   }
   .cerInfo {
-    display: none;
+    /* display: none; */
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 932px) {
   .mainContainer {
-    max-width: 480px;
+    max-width: 932px;
   }
-  * {
+  /* * {
     font-size: 0.8rem;
-  }
+  } */
   .mainContainer {
     overflow: auto;
   }

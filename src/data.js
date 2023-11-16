@@ -70,8 +70,8 @@ export const EdData = [
   },
 ];
 
-export const ProjActData = [
-  { topic: "PROJECTS & ACTIVITIES" },
+export const ProjData = [
+  { topic: "PROJECTS" },
   {
     head: "TensorFlow 2.0 Project ",
     details:
@@ -93,33 +93,38 @@ export const ProjActData = [
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
   },
-
-  {
-    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
-    details:
-      "- This project aimed to mitigate plastic waste and PM2.5 pollution.Culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
-    date: "(Awarded on: 27 April 2021)",
-  },
 ];
 export const MisData = [
-  { topic: "MISCELLANEOUS" },
+  { topic: "ACTIVITIES & MISCELLANEOUS" },
+  {
+    head: "Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
+    details:
+      "- A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
+    url: "",
+  },
   {
     head: "TrueLAB Hackathon x Mordee (participated)",
     details:
       "- Formed a 5-member team and devised new ideas for additional features or improvements to the Mordee application, a telemedicine platform enabling patients to consult with doctors online. Also worked as a UI/UX designer, responsible for designing the interface for the app's innovative features.",
     url: "",
   },
+
   {
     head: "The Odin Project Foundation Course",
     details:
       "- Completed an online web development course covering HTML, CSS, JavaScript, and Git, refining skills in responsive design, UI, project management, and problem-solving, with projects showcased on my GitHub repositories.",
-    url: "https://github.com/PannSengpanich?tab=repositories",
+    url: "",
   },
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details:
       "- Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
     url: "",
+  },
+  {
+    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
+    details:
+      "- This project aimed to mitigate plastic waste and PM2.5 pollution. Culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
   },
   {
     head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
@@ -135,7 +140,7 @@ export const data = {
   TechData,
   WorkData,
   EdData,
-  ProjActData,
+  ProjData,
   MisData,
   IntLangData,
   CerData,

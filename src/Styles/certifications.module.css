@@ -1,6 +1,6 @@
 .topic {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.4rem;
   background-color: #aee5f953;
   padding: 5px 0px 5px 10px;
   margin: 15px 0px 20px 0px;
@@ -21,5 +21,10 @@ img {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
+  }
+}
+@media only screen and (max-width: 932px) {
+  .topic {
+    font-size: 1.5rem;
   }
 }

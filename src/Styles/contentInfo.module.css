@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.4rem;
   background-color: #aee5f953;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 0px 0px;
@@ -25,7 +25,7 @@ button:hover {
 .head {
   display: flex;
   justify-content: space-between;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin: 15px 15px 5px 15px;
 }
@@ -44,7 +44,7 @@ span {
 }
 
 .detail {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0px 10px 5px 15px;
 }
 .url {
@@ -68,14 +68,18 @@ span {
     /* display: none; */
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 932px) {
   .topic {
     font-size: 1.5rem;
+  }
+  .head {
+    font-size: 1.3rem;
+  }
+  .url {
+    font-size: 0.5rem;
   }
   .detail {
     font-size: 0.6rem;
     margin: 0px 10px 5px 15px;
-  }
-  .org {
   }
 }
