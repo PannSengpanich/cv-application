@@ -61,9 +61,9 @@
     /* display: none; */
   }
 }
-@media only screen and (max-width: 932px) {
+@media only screen and (max-width: 852px) {
   .mainContainer {
-    max-width: 932px;
+    max-width: 852px;
   }
   /* * {
     font-size: 0.8rem;

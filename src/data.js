@@ -7,6 +7,7 @@ export const InfoData = {
   linkedin: "pann-sengpanich-978bb1262/",
   location: "Bangkok, Thailand",
   website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
+  kaggle: "www.kaggle.com/pannsengpanich",
 };
 export const TechData = [
   { topic: "TECHNOLOGIES" },
@@ -17,12 +18,12 @@ export const TechData = [
   {
     head: "Frameworks:",
     details:
-      "NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, Ionic, MongoDB,",
+      "NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, Ionic, MongoDB",
   },
   {
     head: "Tools:",
     details:
-      "Github, Google Colab, Anaconda Navigator, VSCode, Eclipse, Webpack, Microsoft Office, Figma, Canva",
+      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Webpack, Microsoft Office, Figma, Canva",
   },
 ];
 export const IntLangData = [
@@ -80,14 +81,14 @@ export const ProjData = [
     date: "Nov 2023",
   },
   {
-    head: "Advance Computer Programming Project 1",
+    head: "Data Analysis Project",
     details:
       "- Examined drug usage patterns across age and education groups, exploring correlations between The Big Five personality traits and drug use, utilizing Python, MongoDB, and Pandas/Plotly/Seaborn on CSV-formatted data.",
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
   },
   {
-    head: "Advance Computer Programming Last Class Demo  ",
+    head: "Mobile Application Project ",
     details:
       "- Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
