@@ -56,17 +56,16 @@ export const EdData = [
   { topic: "EDUCATION" },
   {
     head: "ISE (International School of Engineering)",
-    details: "ICE (Information and Communication Engineering) (GPAX 3.51)",
-    date: "2022-Present",
+    details: [
+      "ICE: Information and Communication Engineering (GPAX 3.51)",
+      "AERO: Aerospace Engineering (2020-2022)",
+    ],
+    date: "2020-Present",
   },
-  {
-    head: "ISE (International School of Engineering)",
-    details: "AERO (Aerospace Engineering)",
-    date: "2020-2022",
-  },
+
   {
     head: "Saint Gabriel's College",
-    details: "Math & Science March 2008-March 2020 (GPAX: 3.94)",
+    details: ["Math & Science (GPAX: 3.94)"],
     date: "2008-2020",
   },
 ];
@@ -76,7 +75,7 @@ export const ProjData = [
   {
     head: "TensorFlow 2.0 Project ",
     details:
-      "- Created a predictive model using historical loan data and employed classification metrics with NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess the likelihood of borrower repayment for future customers.",
+      "- Created a predictive model using historical loan data, applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
     url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
     date: "Nov 2023",
   },
@@ -91,25 +90,24 @@ export const ProjData = [
     head: "Mobile Application Project ",
     details:
       "- Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
-    url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
+    //url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
   },
 ];
 export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
   {
-    head: "Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
-    details:
-      "- A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
-    url: "",
-  },
-  {
     head: "TrueLAB Hackathon x Mordee (participated)",
     details:
       "- Formed a 5-member team and devised new ideas for additional features or improvements to the Mordee application, a telemedicine platform enabling patients to consult with doctors online. Also worked as a UI/UX designer, responsible for designing the interface for the app's innovative features.",
     url: "",
   },
-
+  {
+    head: "Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
+    details:
+      "- A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
+    url: "",
+  },
   {
     head: "The Odin Project Foundation Course",
     details:
