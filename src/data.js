@@ -13,12 +13,12 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     head: "Languages:",
-    details: "Python, Java, JavaScript, HTML ,CSS, SCSS",
+    details: "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS",
   },
   {
     head: "Frameworks:",
     details:
-      "NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, Ionic, MongoDB",
+      "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, Ionic, MongoDB",
   },
   {
     head: "Tools:",
@@ -43,8 +43,8 @@ export const IntLangData = [
 export const WorkData = [
   { topic: "WORK EXPERIENCE" },
   {
-    head: "Front-End Developer",
-    organization: "Gulf JP CRN Co., Ltd",
+    head: "Gulf JP CRN Co., Ltd (as frontend Developer)",
+
     details: [
       "Fixed bugs and component errors in the land management website.",
       "Developed and deployed a new machine learning website by incorporating newly-designed pages from the UX/UI team, fetching new API lines from the back-end team, and translating the existing PHP code into React.",
@@ -90,7 +90,7 @@ export const ProjData = [
     head: "Mobile Application Project ",
     details:
       "- Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
-    //url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
+    url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
   },
 ];
