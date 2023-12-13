@@ -23,7 +23,10 @@ a {
 }
 @media print {
   .right {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
+  }
+  .name {
+    font-size: 5rem;
   }
 }
 

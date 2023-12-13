@@ -27,13 +27,13 @@ button:hover {
   justify-content: space-between;
   font-size: 1.4rem;
   font-weight: bold;
-  margin: 15px 15px 5px 15px;
+  margin: 20px 15px 0px 15px;
 }
 .headRight {
   color: #595959;
 }
 .org {
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin: 10px 10px 5px 15px;
   font-style: italic;
   font-weight: bold;
@@ -45,30 +45,33 @@ span {
 
 .detail {
   font-size: 1.1rem;
-  margin: 0px 10px 5px 15px;
+  margin: 5px 10px 5px 15px;
 }
 .url {
   height: auto;
   font-weight: bold;
   margin: 0px 10px 0px 15px;
 }
+ul {
+  margin: 7px 10px 5px 15px;
+}
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
   .head,
   .org {
-    font-size: 1.1rem;
+    font-size: 1.9rem;
   }
   .detail {
-    font-size: 0.8rem;
+    font-size: 1.4rem;
   }
   .url {
     /* display: none; */
   }
 }
-@media only screen and (max-width: 852px) {
+@media only screen and (max-width: 932px) {
   .topic {
     font-size: 1.5rem;
   }
