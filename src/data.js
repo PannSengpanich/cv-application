@@ -13,41 +13,48 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     head: "Languages:",
-    details: "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS",
+    details: ["Python, SQL, Java, JavaScript, HTML ,CSS, SCSS"],
   },
   {
     head: "Frameworks:",
-    details:
-      "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, Ionic, MongoDB",
+    details: [
+      "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, MongoDB",
+    ],
   },
   {
     head: "Tools:",
-    details:
-      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Webpack, Microsoft Office, Figma, Canva",
+    details: [
+      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva",
+    ],
   },
 ];
 export const IntLangData = [
   { topic: "INTERESTS & LANGUAGES" },
   {
     head: "Interests:",
-    details:
+    details: [
       "Data Science, Stock Market, Investment, Cryptocurrency, Metaverse, and Music ",
+    ],
   },
-  { head: "Languages:", details: "Fluent in Thai and English, basic Chinese" },
+  {
+    head: "Languages:",
+    details: ["Fluent in Thai and English, basic Chinese"],
+  },
   {
     head: "Hobbies:",
-    details:
+    details: [
       "Hanging out, playing musical instruments with friends, and watching movies",
+    ],
   },
 ];
 export const WorkData = [
   { topic: "WORK EXPERIENCE" },
   {
-    head: "Gulf JP CRN Co., Ltd (as frontend Developer)",
+    head: "Gulf JP CRN Co., Ltd (as frontend developer)",
 
     details: [
       "Fixed bugs and component errors in the land management website.",
-      "Developed and deployed a new machine learning website by incorporating newly-designed pages from the UX/UI team, fetching new API lines from the back-end team, and translating the existing PHP code into React.",
+      "Developed and deployed a machine learning website by integrating UX/UI-designed pages, fetching API data from the back-end, and converting existing PHP code to React.",
     ],
     date: "June 2023 - July 2023",
   },
@@ -74,22 +81,25 @@ export const ProjData = [
   { topic: "PROJECTS" },
   {
     head: "TensorFlow 2.0 Project ",
-    details:
-      "- Created a predictive model using historical loan data, applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
+    details: [
+      "Created a predictive model using historical loan data, applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
+    ],
     url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
     date: "Nov 2023",
   },
   {
     head: "Data Analysis Project",
-    details:
-      "- Examined drug usage patterns across age and education groups, exploring correlations between The Big Five personality traits and drug use, utilizing Python, MongoDB, and Pandas/Plotly/Seaborn on CSV-formatted data.",
+    details: [
+      "Explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use. Utilized Python, MongoDB, and Pandas/Plotly/Seaborn on CSV data.",
+    ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
   },
   {
     head: "Mobile Application Project ",
-    details:
-      "- Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
+    details: [
+      "Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
+    ],
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
   },
@@ -98,37 +108,43 @@ export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
   {
     head: "TrueLAB Hackathon x Mordee (participated)",
-    details:
-      "- Formed a 5-member team and devised new ideas for additional features or improvements to the Mordee application, a telemedicine platform enabling patients to consult with doctors online. Also worked as a UI/UX designer, responsible for designing the interface for the app's innovative features.",
+    details: [
+      "Formed a 5-member team and devised new ideas for additional features or improvements to the Mordee application, a telemedicine platform enabling patients to consult with doctors online. Also worked as a UI/UX designer, responsible for designing the interface for the app's innovative features.",
+    ],
     url: "",
   },
   {
     head: "Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
-    details:
-      "- A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
+    details: [
+      "A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
+    ],
     url: "",
   },
   {
     head: "The Odin Project Foundation Course",
-    details:
-      "- Completed an online web development course covering HTML, CSS, JavaScript, and Git, refining skills in responsive design, UI, project management, and problem-solving, with projects showcased on my GitHub repositories.",
+    details: [
+      "Completed an online web development course covering HTML, CSS, JavaScript, and Git, refining skills in responsive design, UI, project management, and problem-solving, with projects showcased on my GitHub repositories.",
+    ],
     url: "",
   },
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
-    details:
-      "- Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+    details: [
+      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+    ],
     url: "",
   },
   {
     head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
-    details:
-      "- This project aimed to mitigate plastic waste and PM2.5 pollution. Culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
+    details: [
+      "This project aimed to mitigate plastic waste and PM2.5 pollution. Culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
+    ],
   },
   {
     head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
-    details:
-      "- Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
+    details: [
+      "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
+    ],
     url: "",
   },
 ];

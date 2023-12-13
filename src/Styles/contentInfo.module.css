@@ -58,7 +58,7 @@ ul {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 2.3rem;
+    font-size: 2.7rem;
   }
   .head,
   .org {
@@ -69,6 +69,7 @@ ul {
   }
   .url {
     /* display: none; */
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 932px) {

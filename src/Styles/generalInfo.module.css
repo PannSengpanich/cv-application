@@ -30,7 +30,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 852px) {
+@media only screen and (max-width: 932px) {
   .generalInfo {
     font-size: 0.8rem;
   }
