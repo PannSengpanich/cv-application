@@ -5,25 +5,15 @@ export const InfoData = {
   email: "sengpanichpann@gmail.com",
   github: "PannSengpanich",
   linkedin: "pann-sengpanich-978bb1262/",
-  location: "Bangkok, Thailand",
   website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
   kaggle: "www.kaggle.com/pannsengpanich",
 };
 export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
-    head: "Languages:",
-    details: ["Python, SQL, Java, JavaScript, HTML ,CSS, SCSS"],
-  },
-  {
-    head: "Frameworks:",
     details: [
+      "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS",
       "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Node.js, Jest, Angular, MongoDB",
-    ],
-  },
-  {
-    head: "Tools:",
-    details: [
       "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva",
     ],
   },
@@ -117,13 +107,6 @@ export const MisData = [
     head: "Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
       "A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
-    ],
-    url: "",
-  },
-  {
-    head: "The Odin Project Foundation Course",
-    details: [
-      "Completed an online web development course covering HTML, CSS, JavaScript, and Git, refining skills in responsive design, UI, project management, and problem-solving, with projects showcased on my GitHub repositories.",
     ],
     url: "",
   },

@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 2rem;
   background-color: #aee5f953;
-  padding: 5px 0px 5px 10px;
-  margin: 10px 0px 0px 0px;
+  padding: 3px 0px 3px 10px;
+  margin: 2px 0px 0px 0px;
 }
 button {
   width: 100px;
@@ -27,7 +27,10 @@ button:hover {
   justify-content: space-between;
   font-size: 1.4rem;
   font-weight: bold;
-  margin: 20px 15px 0px 15px;
+  margin: 5px 15px 0px 15px;
+}
+.headLeft {
+  width: auto;
 }
 .headRight {
   color: #595959;
@@ -45,7 +48,7 @@ span {
 
 .detail {
   font-size: 1.1rem;
-  margin: 5px 10px 5px 15px;
+  margin: 0px 10px 5px 15px;
 }
 .url {
   height: auto;
@@ -58,18 +61,18 @@ ul {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 2.7rem;
+    font-size: 24px;
   }
   .head,
   .org {
-    font-size: 1.9rem;
+    font-size: 22px;
   }
   .detail {
-    font-size: 1.4rem;
+    font-size: 20px;
   }
   .url {
     /* display: none; */
-    font-size: 1.4rem;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 932px) {

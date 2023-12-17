@@ -20,12 +20,33 @@ export default function ContentInfo(props) {
           <>
             {index !== 0 && (
               <>
-                <div className={styles.head}>
-                  <div className={styles.headLeft}>{item.head}</div>
-                  <div className={styles.headRight}>
-                    {item.date && <div>{item.date}</div>}
-                  </div>
-                </div>
+                {item.url && item.head ? (
+                  <>
+                    <div className={styles.head}>
+                      <a
+                        href={item.url}
+                        className={styles.headLeft}
+                        target="_blank">
+                        {item.head}
+                      </a>
+                      <div className={styles.headRight}>
+                        {item.date && <div>{item.date}</div>}
+                      </div>
+                    </div>
+                  </>
+                ) : item.head ? (
+                  <>
+                    <div className={styles.head}>
+                      <div className={styles.headLeft}>{item.head}</div>
+                      <div className={styles.headRight}>
+                        {item.date && <div>{item.date}</div>}
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  <></>
+                )}
+
                 {item.organization ? (
                   <>
                     <div className={styles.org}>{item.organization}</div>
@@ -41,12 +62,6 @@ export default function ContentInfo(props) {
                   </ul>
                 ) : (
                   <div className={styles.detail}>{item.details}</div>
-                )}
-
-                {item.url && (
-                  <a href={item.url} className={styles.url} target="_blank">
-                    Click Here
-                  </a>
                 )}
               </>
             )}

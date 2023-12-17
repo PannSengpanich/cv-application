@@ -37,16 +37,17 @@ function App() {
         info={currentData.ProjData}
         className={styles.projInfo}
         updateInfo={(newData) => updateData("ProjData", newData)}></ContentInfo>
+
       <ContentInfo
         info={currentData.MisData}
         className={styles.misInfo}
         updateInfo={(newData) => updateData("MisData", newData)}></ContentInfo>
-      <ContentInfo
+      {/* <ContentInfo
         info={currentData.IntLangData}
         className={styles.intLangInfo}
         updateInfo={(newData) =>
           updateData("IntLangData", newData)
-        }></ContentInfo>
+        }></ContentInfo> */}
       <Certifications
         info={currentData.CerData}
         className={styles.cerInfo}></Certifications>

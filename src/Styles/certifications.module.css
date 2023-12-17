@@ -2,8 +2,8 @@
   font-weight: bold;
   font-size: 2.4rem;
   background-color: #aee5f953;
-  padding: 5px 0px 5px 10px;
-  margin: 15px 0px 20px 0px;
+  padding: 3px 0px 3px 10px;
+  margin: 2px 0px 0px 0px;
 }
 a {
   display: inline-block;
@@ -21,7 +21,7 @@ img {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 2.3rem;
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 852px) {
