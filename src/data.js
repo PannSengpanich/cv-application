@@ -43,8 +43,9 @@ export const WorkData = [
     head: "Gulf JP CRN Co., Ltd (as frontend developer)",
 
     details: [
-      "Fixed bugs and component errors in the land management website.",
-      "Developed and deployed a machine learning website by integrating UX/UI-designed pages, fetching API data from the back-end, and converting existing PHP code to React.",
+      "Fixed bugs, errors, and inappropriate placement of components on the land management website, reducing the total time spent on the site by 25%.",
+      "Developed and deployed a machine learning website that is now being used in practical website for employees, integrated UX/UI-designed pages, fetched API data from the back-end, and converted existing PHP code to React.",
+      "Introduced and discussed new modern frameworks and libraries to employees and internship mentors, e.g., Charts.js, Bootstrap, and Tailwind.",
     ],
     date: "June 2023 - July 2023",
   },
@@ -72,7 +73,7 @@ export const ProjData = [
   {
     head: "TensorFlow 2.0 Project ",
     details: [
-      "Created a predictive model using historical loan data, applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
+      "Created a predictive model that can predict whether or not a borrower will pay back their loan using historical loan data, applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
     ],
     url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
     date: "Nov 2023",
@@ -80,7 +81,7 @@ export const ProjData = [
   {
     head: "Data Analysis Project",
     details: [
-      "Explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use. Utilized Python, MongoDB, and Pandas/Plotly/Seaborn on CSV data.",
+      "Explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use, utilized Python, MongoDB, and Pandas/Plotly/Seaborn on CSV data.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
@@ -88,7 +89,7 @@ export const ProjData = [
   {
     head: "Mobile Application Project ",
     details: [
-      "Developed a weather app interface prototype for a website, linked to a weather URL, displaying daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
+      "Developed a weather app interface prototype for a website, linked to a weather URL, displayed daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
     ],
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
@@ -99,7 +100,7 @@ export const MisData = [
   {
     head: "TrueLAB Hackathon x Mordee (participated)",
     details: [
-      "Formed a 5-member team and devised new ideas for additional features or improvements to the Mordee application, a telemedicine platform enabling patients to consult with doctors online. Also worked as a UI/UX designer, responsible for designing the interface for the app's innovative features.",
+      "Assembled a 5-member team to brainstorm and implement innovative features and enhancements for the Mordee telemedicine application, exhibited strong teamwork and effective communication skills while also taking on the role of a UI/UX designer, contributing to the creation of visually appealing interfaces for the app's groundbreaking features.",
     ],
     url: "",
   },
