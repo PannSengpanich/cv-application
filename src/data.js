@@ -73,7 +73,8 @@ export const ProjData = [
   {
     head: "TensorFlow 2.0 Project ",
     details: [
-      "Created a predictive model that can predict whether or not a borrower will pay back their loan using historical loan data, applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
+      "Created a predictive model that can predict whether or not a borrower will pay back their loan using historical loan data, ",
+      "Applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
     ],
     url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
     date: "Nov 2023",
@@ -81,7 +82,8 @@ export const ProjData = [
   {
     head: "Data Analysis Project",
     details: [
-      "Explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use, utilized Python, MongoDB, and Pandas/Plotly/Seaborn on CSV data.",
+      "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
+      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
@@ -89,7 +91,7 @@ export const ProjData = [
   {
     head: "Mobile Application Project ",
     details: [
-      "Developed a weather app interface prototype for a website, linked to a weather URL, displayed daily temperature at each time point. Implemented using TypeScript, SCSS, JavaScript, HTML, and Angular.",
+      "Developed a weather app interface prototype for a website, linked to a weather URL, displayed daily temperature at each time point using TypeScript, HTML, and Angular.",
     ],
     url: "https://github.com/PannSengpanich/WeatherProvider-LastClassDemo-",
     date: "Dec 2022",
@@ -105,23 +107,23 @@ export const MisData = [
     url: "",
   },
   {
-    head: "Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
+    head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
-      "A mentorship program where highly successful alumni, including business owners, CEOs, CFOs, and other industry leaders, serve as mentors for undergraduate students. The program aims to guide mentees in setting life goals, planning careers, and developing various skills while connecting academic learning to the professional world.",
+      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners, and other industry leaders, guiding in developing soft skills, planning careers, and setting life goals.",
     ],
     url: "",
   },
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details: [
-      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis. Visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis, visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
     ],
     url: "",
   },
   {
     head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
     details: [
-      "This project aimed to mitigate plastic waste and PM2.5 pollution. Culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
+      "Aimed to mitigate plastic waste and PM2.5 pollution, culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
     ],
   },
   {
