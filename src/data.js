@@ -102,14 +102,14 @@ export const MisData = [
   {
     head: "TrueLAB Hackathon x Mordee (participated)",
     details: [
-      "Assembled a 5-member team to brainstorm and implement innovative features and enhancements for the Mordee telemedicine application, exhibited strong teamwork and effective communication skills while also taking on the role of a UI/UX designer, contributing to the creation of visually appealing interfaces for the app's groundbreaking features.",
+      "Assembled a 5-member team to brainstorm and implement innovative features and enhancements for the Mordee telemedicine application, exhibited strong teamwork and effective communication skills, took on the role of a UI/UX designer, contributing to the creation of visually appealing interfaces for the app's groundbreaking features.",
     ],
     url: "",
   },
   {
     head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
-      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners, and other industry leaders, guiding in developing soft skills, planning careers, and setting life goals.",
+      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
     ],
     url: "",
   },
@@ -129,7 +129,7 @@ export const MisData = [
   {
     head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
     details: [
-      "Collaborated with faculty members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
+      "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
       "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
     ],
     url: "",
