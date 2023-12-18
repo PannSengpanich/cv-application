@@ -20,37 +20,49 @@ function App() {
     <div className={styles.mainContainer}>
       <GeneralInfo
         info={currentData.InfoData}
-        className={styles.generalInfo}></GeneralInfo>
+        className={styles.generalInfo}
+      ></GeneralInfo>
       <ContentInfo
         info={currentData.TechData}
         className={styles.techInfo}
-        updateInfo={(newData) => updateData("TechData", newData)}></ContentInfo>
+        updateInfo={(newData) => updateData("TechData", newData)}
+      ></ContentInfo>
       <ContentInfo
         info={currentData.WorkData}
         className={styles.workInfo}
-        updateInfo={(newData) => updateData("WorkData", newData)}></ContentInfo>
+        updateInfo={(newData) => updateData("WorkData", newData)}
+      ></ContentInfo>
       <ContentInfo
         info={currentData.EdData}
         className={styles.edInfo}
-        updateInfo={(newData) => updateData("EdData", newData)}></ContentInfo>
+        updateInfo={(newData) => updateData("EdData", newData)}
+      ></ContentInfo>
       <ContentInfo
         info={currentData.ProjData}
         className={styles.projInfo}
-        updateInfo={(newData) => updateData("ProjData", newData)}></ContentInfo>
+        updateInfo={(newData) => updateData("ProjData", newData)}
+      ></ContentInfo>
 
       <ContentInfo
         info={currentData.MisData}
         className={styles.misInfo}
-        updateInfo={(newData) => updateData("MisData", newData)}></ContentInfo>
+        updateInfo={(newData) => updateData("MisData", newData)}
+      ></ContentInfo>
       {/* <ContentInfo
         info={currentData.IntLangData}
         className={styles.intLangInfo}
         updateInfo={(newData) =>
           updateData("IntLangData", newData)
         }></ContentInfo> */}
+      <ContentInfo
+        info={currentData.CerData}
+        className={styles.misInfo}
+        updateInfo={(newData) => updateData("CerData", newData)}
+      ></ContentInfo>
       <Certifications
         info={currentData.CerData}
-        className={styles.cerInfo}></Certifications>
+        className={styles.cerInfo}
+      ></Certifications>
     </div>
   );
 }

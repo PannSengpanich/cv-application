@@ -113,19 +113,19 @@ export const MisData = [
     ],
     url: "",
   },
-  {
-    head: "Member of New Investor Program for Society (NIP-S 35)",
-    details: [
-      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis, visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
-    ],
-    url: "",
-  },
-  {
-    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
-    details: [
-      "Aimed to mitigate plastic waste and PM2.5 pollution, culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
-    ],
-  },
+  // {
+  //   head: "Member of New Investor Program for Society (NIP-S 35)",
+  //   details: [
+  //     "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis, visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+  //   ],
+  //   url: "",
+  // },
+  // {
+  //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
+  //   details: [
+  //     "Aimed to mitigate plastic waste and PM2.5 pollution, culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
+  //   ],
+  // },
   {
     head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
     details: [
@@ -135,7 +135,17 @@ export const MisData = [
     url: "",
   },
 ];
-export const CerData = [];
+export const CerData = [
+  { topic: "CERTIFICATIONS" },
+  {
+    head: "Master SQL For Data Science",
+    url: "https://www.udemy.com/certificate/UC-fb1dfcac-a15e-4197-b99e-7327e8af1428/",
+  },
+  {
+    head: "Python for Data Science and Machine Learning Bootcamp",
+    url: "https://www.udemy.com/certificate/UC-ff659d9b-0638-4480-9e14-27bfaa605c3f/",
+  },
+];
 
 export const data = {
   InfoData,
