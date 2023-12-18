@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-application/static/css/main.c0a6d7dd.css",
-    "main.js": "/cv-application/static/js/main.c7dc8725.js",
+    "main.css": "/cv-application/static/css/main.c9e6a8fe.css",
+    "main.js": "/cv-application/static/js/main.04f2e01a.js",
     "static/js/787.3e033c37.chunk.js": "/cv-application/static/js/787.3e033c37.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/cv-application/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/fcc-js.jpg": "/cv-application/static/media/fcc-js.4ce75b7002db62fc85c0.jpg",
@@ -10,12 +10,12 @@
     "static/media/PostgreSQLCert.jpg": "/cv-application/static/media/PostgreSQLCert.c6a09a263b2eac2b54e8.jpg",
     "static/media/Cabin-VariableFont_wdth,wght.ttf": "/cv-application/static/media/Cabin-VariableFont_wdth,wght.f3d6f1faeb69e8418d11.ttf",
     "index.html": "/cv-application/index.html",
-    "main.c0a6d7dd.css.map": "/cv-application/static/css/main.c0a6d7dd.css.map",
-    "main.c7dc8725.js.map": "/cv-application/static/js/main.c7dc8725.js.map",
+    "main.c9e6a8fe.css.map": "/cv-application/static/css/main.c9e6a8fe.css.map",
+    "main.04f2e01a.js.map": "/cv-application/static/js/main.04f2e01a.js.map",
     "787.3e033c37.chunk.js.map": "/cv-application/static/js/787.3e033c37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0a6d7dd.css",
-    "static/js/main.c7dc8725.js"
+    "static/css/main.c9e6a8fe.css",
+    "static/js/main.04f2e01a.js"
   ]
 }
