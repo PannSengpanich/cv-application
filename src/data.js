@@ -102,11 +102,10 @@ export const MisData = [
   {
     head: "TrueLAB Hackathon x Mordee (participated)",
     details: [
-      "Assembled a 5-member team to implement innovative features and enhancements for the Mordee telemedicine application. ",
-      "Exhibited strong teamwork and effective communication skills by brainstorming ideas and sharing the work among the group.",
+      "Assembled a 5-member team to brainstorm cutting-edge features and enhancements for the Mordee telemedicine application, aiming to enhance its functionality and user experience.",
+      "Exhibited strong teamwork and effective communication skills by sharing ideas and work among the group.",
       "Took on the role of a UI/UX designer, contributing to the creation of visually appealing interfaces for the app's groundbreaking features.",
     ],
-
     url: "",
   },
   {
