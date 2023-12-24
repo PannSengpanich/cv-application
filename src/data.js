@@ -129,7 +129,7 @@ export const MisData = [
     ],
   },
   {
-    head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
+    head: "Member of CU Band since 2020, and cheif of CU Band's pianist in 2022  ",
     details: [
       "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
       "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
