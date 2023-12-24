@@ -73,7 +73,7 @@ export const ProjData = [
   {
     head: "TensorFlow 2.0 Project ",
     details: [
-      "Created a predictive model that can predict whether or not a borrower will pay back their loan using historical loan data, ",
+      "Created a model that can predict whether or not a borrower will pay back their loan using historical loan data, ",
       "Applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
     ],
     url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
@@ -129,7 +129,7 @@ export const MisData = [
   //   ],
   // },
   {
-    head: "Member of CU Band since 2020, and Head of CU Band in 2022  ",
+    head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
     details: [
       "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
       "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
