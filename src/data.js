@@ -12,9 +12,9 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     details: [
-      "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS",
-      "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB",
-      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva",
+      "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS.",
+      "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
+      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva.",
     ],
   },
 ];
@@ -23,17 +23,17 @@ export const IntLangData = [
   {
     head: "Interests:",
     details: [
-      "Data Science, Stock Market, Investment, Cryptocurrency, Metaverse, and Music ",
+      "Data Science, Stock Market, Investment, Cryptocurrency, Metaverse, and Music. ",
     ],
   },
   {
     head: "Languages:",
-    details: ["Fluent in Thai and English, basic Chinese"],
+    details: ["Fluent in Thai and English, basic Chinese."],
   },
   {
     head: "Hobbies:",
     details: [
-      "Hanging out, playing musical instruments with friends, and watching movies",
+      "Hanging out, playing musical instruments with friends, and watching movies.",
     ],
   },
 ];
@@ -75,7 +75,7 @@ export const ProjData = [
     details: [
       "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices. ",
       "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
-      "Visualized the results using Seaborn, Matplotlib, and Plotly,",
+      "Visualized the results using Seaborn, Matplotlib, and Plotly.",
     ],
     url: "https://www.kaggle.com/code/pannsengpanich/pann-sengpanich-s-house-prices-analysis",
     date: "Dec 2023",
@@ -84,7 +84,7 @@ export const ProjData = [
     head: "Data Analysis Project",
     details: [
       "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
-      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly",
+      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
