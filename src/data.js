@@ -55,7 +55,7 @@ export const EdData = [
   {
     head: "ISE (International School of Engineering)",
     details: [
-      "ICE: Information and Communication Engineering (GPAX 3.51)",
+      "ICE: Information and Communication Engineering (GPAX 3.57)",
       "AERO: Aerospace Engineering (2020-2022)",
     ],
     date: "2020-Present",
@@ -71,12 +71,13 @@ export const EdData = [
 export const ProjData = [
   { topic: "PROJECTS" },
   {
-    head: "TensorFlow 2.0 Project ",
+    head: "Kaggle's House Prices Prediction Project ",
     details: [
-      "Created a predictive model that can predict whether or not a borrower will pay back their loan using historical loan data, ",
-      "Applied classification metrics using NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, and Tensorflow to assess future customer repayment likelihood.",
+      "Created and compared predictive models, such as random forest, linear regressor, and deep learning, to predict house prices. ",
+      "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
+      "Visualized the results using Seaborn, Matplotlib, and Plotly,",
     ],
-    url: "https://colab.research.google.com/drive/12N0G_ELMjjxG184iVCmF9zwIaEXFAqBj#scrollTo=1ZZkunP6hl33",
+    url: "https://www.kaggle.com/code/pannsengpanich/pann-sengpanich-s-house-prices-analysis",
     date: "Nov 2023",
   },
   {
