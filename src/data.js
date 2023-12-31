@@ -73,12 +73,12 @@ export const ProjData = [
   {
     head: "Kaggle's House Prices Prediction Project ",
     details: [
-      "Created and compared predictive models, such as random forest, linear regressor, and deep learning, to predict house prices. ",
+      "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices. ",
       "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
       "Visualized the results using Seaborn, Matplotlib, and Plotly,",
     ],
     url: "https://www.kaggle.com/code/pannsengpanich/pann-sengpanich-s-house-prices-analysis",
-    date: "Nov 2023",
+    date: "Dec 2023",
   },
   {
     head: "Data Analysis Project",
