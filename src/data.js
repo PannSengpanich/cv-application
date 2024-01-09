@@ -81,6 +81,16 @@ export const ProjData = [
     date: "Dec 2023",
   },
   {
+    head: "Kaggle's Natural Language Processing with Disaster Tweets Project",
+    details: [
+      "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not.",
+      "Analyzed columns or features of the data using Pearson correlation and feature selection.",
+      "Visualized the results using Seaborn, and Matplotlib.",
+    ],
+    url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
+    date: "Jan 2024",
+  },
+  {
     head: "Data Analysis Project",
     details: [
       "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
@@ -119,7 +129,7 @@ export const MisData = [
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details: [
-      "Acquired knowledge in investment, including social entrepreneurship, cryptocurrency, digital assets, and trend analysis, visited the Stock Exchange of Thailand to understand stocks' origins, future financial planning, and alternative investment skills beyond bank deposits.",
+      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets. Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
     ],
     url: "",
   },
@@ -130,7 +140,7 @@ export const MisData = [
     ],
   },
   {
-    head: "Member of CU Band since 2020, and cheif of CU Band's pianist in 2022  ",
+    head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
     details: [
       "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
       "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
