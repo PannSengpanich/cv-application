@@ -59,10 +59,10 @@ function App() {
         className={styles.misInfo}
         updateInfo={(newData) => updateData("CerData", newData)}
       ></ContentInfo>
-      <Certifications
+      {/* <Certifications
         info={currentData.CerData}
         className={styles.cerInfo}
-      ></Certifications>
+      ></Certifications> */}
     </div>
   );
 }

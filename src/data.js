@@ -148,6 +148,10 @@ export const CerData = [
     url: "https://www.udemy.com/certificate/UC-fb1dfcac-a15e-4197-b99e-7327e8af1428/",
   },
   {
+    head: "Data Science Real World Projects in Python",
+    url: "https://www.udemy.com/certificate/UC-6f4ff25d-7789-46f7-9853-9298645be36c/",
+  },
+  {
     head: "Python for Data Science and Machine Learning Bootcamp",
     url: "https://www.udemy.com/certificate/UC-ff659d9b-0638-4480-9e14-27bfaa605c3f/",
   },
