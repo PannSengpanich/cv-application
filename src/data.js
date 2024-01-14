@@ -118,13 +118,13 @@ export const MisData = [
   //   ],
   //   url: "",
   // },
-  {
-    head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
-    details: [
-      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
-    ],
-    url: "",
-  },
+  // {
+  //   head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
+  //   details: [
+  //     "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
+  //   ],
+  //   url: "",
+  // },
 
   // {
   //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
