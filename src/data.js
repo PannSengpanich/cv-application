@@ -43,7 +43,7 @@ export const WorkData = [
     head: "Gulf JP CRN Co., Ltd (as frontend developer)",
 
     details: [
-      "Fixed bugs, errors, and inappropriate placement of components on the land management website, reducing the total time spent on the site by 25%.",
+      "Fixed bugs, errors, and inappropriate placement of components on the land management website, reducing unnecessary time spent on the site by 25%.",
       "Developed and deployed a machine learning website that is now being used in practical website for employees, integrated UX/UI-designed pages, fetched API data from the back-end, and converted existing PHP code to React.",
       "Introduced and discussed new modern frameworks and libraries to employees and internship mentors, e.g., Charts.js, Bootstrap, and Tailwind.",
     ],
@@ -73,9 +73,9 @@ export const ProjData = [
   {
     head: "Kaggle's House Prices Prediction Project ",
     details: [
-      "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices. ",
+      "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices with RMSE less than 200. ",
       "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
-      "Visualized the results using Seaborn, Matplotlib, and Plotly.",
+      "Visualized the findings into charts and graphs using Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://www.kaggle.com/code/pannsengpanich/house-prices-analysis",
     date: "Dec 2023",
@@ -83,7 +83,7 @@ export const ProjData = [
   {
     head: "Kaggle's Natural Language Processing with Disaster Tweets Project",
     details: [
-      "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not.",
+      "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with f1-score = 0.8.",
       "Analyzed columns or features of the data using Pearson correlation and feature selection.",
       "Visualized the results using Seaborn, and Matplotlib.",
     ],
@@ -94,7 +94,6 @@ export const ProjData = [
     head: "Data Analysis Project",
     details: [
       "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
-      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
