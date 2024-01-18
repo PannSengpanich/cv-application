@@ -91,6 +91,16 @@ export const ProjData = [
     date: "Jan 2024",
   },
   {
+    head: "Kaggle's Stocks Data Prediction Project ",
+    details: [
+      "Created a deep learning predictive model by utilizing both neural networks and recurrent neural networks (LSTM) to predict the stock price with an RMSE < 7.",
+      "Analyzed columns or features of the data using EMA, MACD, RSI, and Pearson correlation.",
+      "Visualized the results using Plotly, Seaborn, and Matplotlib.",
+    ],
+    url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
+    date: "Jan 2024",
+  },
+  {
     head: "Data Analysis Project",
     details: [
       "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
