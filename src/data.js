@@ -81,7 +81,7 @@ export const ProjData = [
     date: "Dec 2023",
   },
   {
-    head: "Kaggle's Natural Language Processing with Disaster Tweets Project",
+    head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
     details: [
       "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with f1-score = 0.8.",
       "Analyzed columns or features of the data using Pearson correlation and feature selection.",
@@ -91,12 +91,14 @@ export const ProjData = [
     date: "Jan 2024",
   },
   {
-    head: "Data Analysis Project",
+    head: "Kaggle's Stocks Data Prediction Project ",
     details: [
-      "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
+      "Created a deep learning predictive model by utilizing both neural networks and recurrent neural networks (LSTM) to predict the stock price with an RMSE < 7.",
+      "Analyzed columns or features of the data using EMA, MACD, RSI, and Pearson correlation.",
+      "Visualized the results using Plotly, Seaborn, and Matplotlib.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
-    date: "Oct 2022",
+    date: "Jan 2024",
   },
 ];
 export const MisData = [
