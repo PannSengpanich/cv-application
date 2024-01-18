@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/cv-application/static/css/main.61410e85.css",
-    "main.js": "/cv-application/static/js/main.2fbaf26f.js",
+    "main.css": "/cv-application/static/css/main.d85bef61.css",
+    "main.js": "/cv-application/static/js/main.22642924.js",
     "static/js/787.3e033c37.chunk.js": "/cv-application/static/js/787.3e033c37.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/cv-application/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/fcc-js.jpg": "/cv-application/static/media/fcc-js.4ce75b7002db62fc85c0.jpg",
     "static/media/fcc-ResponsiveDesign.jpg": "/cv-application/static/media/fcc-ResponsiveDesign.e4914fec72aa3cf28e85.jpg",
     "static/media/dataSciCert.jpg": "/cv-application/static/media/dataSciCert.5153aefadddf2123a3f2.jpg",
+    "static/media/dataSciRealWorld.jpg": "/cv-application/static/media/dataSciRealWorld.44a4021b1fe7a67afd11.jpg",
     "static/media/PostgreSQLCert.jpg": "/cv-application/static/media/PostgreSQLCert.c6a09a263b2eac2b54e8.jpg",
     "static/media/Cabin-VariableFont_wdth,wght.ttf": "/cv-application/static/media/Cabin-VariableFont_wdth,wght.f3d6f1faeb69e8418d11.ttf",
     "index.html": "/cv-application/index.html",
-    "main.61410e85.css.map": "/cv-application/static/css/main.61410e85.css.map",
-    "main.2fbaf26f.js.map": "/cv-application/static/js/main.2fbaf26f.js.map",
+    "main.d85bef61.css.map": "/cv-application/static/css/main.d85bef61.css.map",
+    "main.22642924.js.map": "/cv-application/static/js/main.22642924.js.map",
     "787.3e033c37.chunk.js.map": "/cv-application/static/js/787.3e033c37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61410e85.css",
-    "static/js/main.2fbaf26f.js"
+    "static/css/main.d85bef61.css",
+    "static/js/main.22642924.js"
   ]
 }
