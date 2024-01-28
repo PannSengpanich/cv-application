@@ -53,7 +53,7 @@ export const WorkData = [
 export const EdData = [
   { topic: "EDUCATION" },
   {
-    head: "ISE (International School of Engineering)",
+    head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
       "ICE: Information and Communication Engineering (GPAX 3.57)",
       "AERO: Aerospace Engineering (2020-2022)",
