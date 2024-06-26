@@ -121,15 +121,6 @@ export const ProjData = [
 export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
   {
-    head: "TrueLAB Hackathon x Mordee (participated)",
-    details: [
-      "Assembled a 5-member team to brainstorm cutting-edge features and enhancements for the Mordee telemedicine application, aiming to enhance its functionality and user experience.",
-      "Exhibited strong teamwork and effective communication skills by sharing ideas and work among the group.",
-      "Took on the role of a UI/UX designer, contributing to the creation of visually appealing interfaces for the app's groundbreaking features.",
-    ],
-    url: "",
-  },
-  {
     head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
       "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
