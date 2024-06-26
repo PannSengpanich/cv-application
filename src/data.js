@@ -40,12 +40,21 @@ export const IntLangData = [
 export const WorkData = [
   { topic: "WORK EXPERIENCE" },
   {
+    head: "EY (as Risk Consulting - Financial Service Risk Management)",
+
+    details: [
+      "Simplified, automated, validated, and visualized the performance metrics (such as AUC, GINI, KS, and IV) of the credit scoring model using Python and other libraries after the scorecard for each final factor was developed, reducing the total time spent on the model by 30%.",
+    ],
+    date: "June 2024 - July 2024",
+  },
+
+  {
     head: "Gulf JP CRN Co., Ltd (as frontend developer)",
 
     details: [
-      "Fixed bugs, errors, and inappropriate placement of components on the land management website, reducing unnecessary time spent on the site by 25%.",
-      "Developed and deployed a machine learning website that is now being used in practical website for employees, integrated UX/UI-designed pages, fetched API data from the back-end, and converted existing PHP code to React.",
-      "Introduced and discussed new modern frameworks and libraries to employees and internship mentors, e.g., Charts.js, Bootstrap, and Tailwind.",
+      "Fixed bugs and optimized component placement on the land management website, reducing site usage time by 25%.",
+      "Developed a machine learning website for employee use, integrating UX/UI designs, API data, and converting PHP to React.",
+      "Introduced modern frameworks (Chart.js, Bootstrap, Tailwind) to employees and mentors.",
     ],
     date: "June 2023 - July 2023",
   },
@@ -55,7 +64,7 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "ICE: Information and Communication Engineering (GPAX 3.57)",
+      "ICE: Information and Communication Engineering (GPAX 3.61)",
       "AERO: Aerospace Engineering (2020-2022)",
     ],
     date: "2020-Present",
@@ -75,7 +84,6 @@ export const ProjData = [
     details: [
       "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices with RMSE less than 200. ",
       "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
-      "Visualized the findings into charts and graphs using Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://www.kaggle.com/code/pannsengpanich/house-prices-analysis",
     date: "Dec 2023",
@@ -85,47 +93,38 @@ export const ProjData = [
     details: [
       "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with f1-score = 0.8.",
       "Analyzed columns or features of the data using Pearson correlation and feature selection.",
-      "Visualized the results using Seaborn, and Matplotlib.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "Jan 2024",
   },
   {
-    head: "Kaggle's Stocks Data Prediction Project ",
+    head: "ICE Capstone Project",
     details: [
-      "Created a deep learning predictive model by utilizing both neural networks and recurrent neural networks (LSTM) to predict the stock price with an RMSE < 7.",
-      "Analyzed columns or features of the data using EMA, MACD, RSI, and Pearson correlation.",
-      "Visualized the results using Plotly, Seaborn, and Matplotlib.",
+      "Led the front-end team in creating 'ATHCESS', a fully functional web application that connects athletes with scouts, enhancing visibility for athletes.",
+      "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
+      "Collaborated with other teams, assigned and planned work for team members, and provided guidance to the team.",
     ],
-    url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
-    date: "Jan 2024",
+    url: "https://github.com/Athcess/athcess-frontend",
+    date: "May 2024",
   },
 ];
 export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
+
   {
-    head: "TrueLAB Hackathon x Mordee (participated)",
+    head: "Member of New Investor Program for Society (NIP-S 35)",
     details: [
-      "Assembled a 5-member team to brainstorm cutting-edge features and enhancements for the Mordee telemedicine application, aiming to enhance its functionality and user experience.",
-      "Exhibited strong teamwork and effective communication skills by sharing ideas and work among the group.",
-      "Took on the role of a UI/UX designer, contributing to the creation of visually appealing interfaces for the app's groundbreaking features.",
+      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets. Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
     ],
     url: "",
   },
-  // {
-  //   head: "Member of New Investor Program for Society (NIP-S 35)",
-  //   details: [
-  //     "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets. Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
-  //   ],
-  //   url: "",
-  // },
-  // {
-  //   head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
-  //   details: [
-  //     "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
-  //   ],
-  //   url: "",
-  // },
+  {
+    head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
+    details: [
+      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
+    ],
+    url: "",
+  },
 
   // {
   //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
