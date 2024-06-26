@@ -14,7 +14,7 @@ export const TechData = [
     details: [
       "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS",
       "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB",
-      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva",
+      "Microsoft Office, Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Figma, Canva",
     ],
   },
 ];
@@ -40,7 +40,15 @@ export const IntLangData = [
 export const WorkData = [
   { topic: "WORK EXPERIENCE" },
   {
-    head: "Gulf JP CRN Co., Ltd (as frontend developer)",
+    head: "EY (as Risk Consulting - Financial Service Risk Management)",
+
+    details: [
+      "Simplified, automated, and validated the performance metrics (such as AUC, GINI, KS, and IV) of the credit scoring model using Python and other libraries after the scorecard for each final factor was developed, reducing the total time spent on the model by 30%.",
+    ],
+    date: "June 2024 - July 2024",
+  },
+  {
+    head: "Gulf JP CRN Co., Ltd (as Frontend Developer)",
 
     details: [
       "Fixed bugs, errors, and inappropriate placement of components on the land management website, reducing the total time spent on the site by 25%.",
@@ -55,7 +63,7 @@ export const EdData = [
   {
     head: "ISE (International School of Engineering)",
     details: [
-      "ICE: Information and Communication Engineering (GPAX 3.57)",
+      "ICE: Information and Communication Engineering (GPAX 3.61)",
       "AERO: Aerospace Engineering (2020-2022)",
     ],
     date: "2020-Present",
@@ -70,6 +78,16 @@ export const EdData = [
 
 export const ProjData = [
   { topic: "PROJECTS" },
+  {
+    head: "ICE Capstone Project",
+    details: [
+      "Led the front-end team in creating 'ATHCESS', a fully functional web application that connects athletes with scouts, enhancing visibility for athletes.",
+      "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
+      "Collaborated with other teams, assigned and planned work for team members, and provided guidance to the team.",
+    ],
+    url: "https://github.com/Athcess/athcess-frontend",
+    date: "May 2024",
+  },
   {
     head: "Kaggle's House Prices Prediction Project ",
     details: [
