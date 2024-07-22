@@ -43,7 +43,8 @@ export const WorkData = [
     head: "EY (as Risk Consulting - Financial Service Risk Management)",
 
     details: [
-      "Simplified, automated, validated, and visualized the performance metrics (such as AUC, GINI, KS, and IV) of the credit scoring model using Python and other libraries after the scorecard for each final factor was developed, reducing the total time spent on the model by 30%.",
+      "Validated the performance of the scorecard after development using performance metrics such as AUC, GINI, KS, and IV, and then visualized the performance using Seaborn.",
+      "Simplified and automated the credit scoring model by assigning the score of each factor to customers using the scorecard instead of re-running the entire model, reducing time spent by 30%.",
     ],
     date: "June 2024 - July 2024",
   },
@@ -132,14 +133,14 @@ export const MisData = [
   //     "Aimed to mitigate plastic waste and PM2.5 pollution, culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
   //   ],
   // },
-  {
-    head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
-    details: [
-      "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
-      "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
-    ],
-    url: "",
-  },
+  // {
+  //   head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
+  //   details: [
+  //     "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
+  //     "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
+  //   ],
+  //   url: "",
+  // },
 ];
 export const CerData = [
   { topic: "CERTIFICATIONS" },
@@ -148,12 +149,12 @@ export const CerData = [
     url: "https://www.udemy.com/certificate/UC-fb1dfcac-a15e-4197-b99e-7327e8af1428/",
   },
   {
-    head: "Data Science Real World Projects in Python",
-    url: "https://www.udemy.com/certificate/UC-6f4ff25d-7789-46f7-9853-9298645be36c/",
-  },
-  {
     head: "Python for Data Science and Machine Learning Bootcamp",
     url: "https://www.udemy.com/certificate/UC-ff659d9b-0638-4480-9e14-27bfaa605c3f/",
+  },
+  {
+    head: "Data Science Real World Projects in Python",
+    url: "https://www.udemy.com/certificate/UC-6f4ff25d-7789-46f7-9853-9298645be36c/",
   },
 ];
 
