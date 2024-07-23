@@ -38,7 +38,7 @@ export const IntLangData = [
   },
 ];
 export const WorkData = [
-  { topic: "WORK EXPERIENCE" },
+  { topic: "WORK EXPERIENCES" },
   {
     head: "EY (as Risk Consulting - Financial Service Risk Management)",
 
@@ -53,13 +53,12 @@ export const WorkData = [
     details: [
       "Fixed bugs, errors, and inappropriate placement of components on the land management website, reducing the total time spent on the site by 25%.",
       "Developed and deployed a machine learning website that is now being used in practical website for employees, integrated UX/UI-designed pages, fetched API data from the back-end, and converted existing PHP code to React.",
-      "Introduced and discussed new modern frameworks and libraries to employees and internship mentors, e.g., Charts.js, Bootstrap, and Tailwind.",
     ],
     date: "June 2023 - July 2023",
   },
 ];
 export const EdData = [
-  { topic: "EDUCATION" },
+  { topic: "EDUCATIONS" },
   {
     head: "ISE (International School of Engineering)",
     details: [
