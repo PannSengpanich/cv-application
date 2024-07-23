@@ -38,7 +38,7 @@ export const IntLangData = [
   },
 ];
 export const WorkData = [
-  { topic: "WORK EXPERIENCE" },
+  { topic: "WORK EXPERIENCES" },
   {
     head: "EY (as Risk Consulting - Financial Service Risk Management)",
 
@@ -50,18 +50,17 @@ export const WorkData = [
   },
 
   {
-    head: "Gulf JP CRN Co., Ltd (as frontend developer)",
+    head: "Gulf JP CRN Co., Ltd (as Frontend Developer)",
 
     details: [
-      "Fixed bugs and optimized component placement on the land management website, reducing site usage time by 25%.",
-      "Developed a machine learning website for employee use, integrating UX/UI designs, API data, and converting PHP to React.",
-      "Introduced modern frameworks (Chart.js, Bootstrap, Tailwind) to employees and mentors.",
+      "Addressed and resolved bugs, optimizing component placement on the land management website, resulting in a 25% reduction in site usage time.",
+      "Designed and implemented a machine learning website for internal use, incorporating UX/UI design principles, integrating API data, transitioning from PHP to React, and utilizing additional libraries such as Chart.js and SCSS.",
     ],
     date: "June 2023 - July 2023",
   },
 ];
 export const EdData = [
-  { topic: "EDUCATION" },
+  { topic: "EDUCATIONS" },
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
