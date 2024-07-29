@@ -12,7 +12,7 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     details: [
-      "Python, SQL, Java, JavaScript, HTML ,CSS, SCSS.",
+      "Python, PyTorch, SQL, Java, JavaScript, HTML ,CSS, SCSS.",
       "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
       "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva.",
     ],
