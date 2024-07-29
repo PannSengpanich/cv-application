@@ -4,7 +4,7 @@ export const InfoData = {
   phone: "091-803-7803",
   email: "sengpanichpann@gmail.com",
   github: "PannSengpanich",
-  linkedin: "pann-sengpanich-978bb1262/",
+  linkedin: "pann-sengpanich/",
   website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
   kaggle: "www.kaggle.com/pannsengpanich",
 };
@@ -38,7 +38,7 @@ export const IntLangData = [
   },
 ];
 export const WorkData = [
-  { topic: "WORK EXPERIENCES" },
+  { topic: "WORK EXPERIENCES (INTERNSHIP)" },
   {
     head: "EY (as Risk Consulting - Financial Service Risk Management)",
 
@@ -80,15 +80,6 @@ export const EdData = [
 export const ProjData = [
   { topic: "PROJECTS" },
   {
-    head: "Kaggle's House Prices Prediction Project ",
-    details: [
-      "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices with RMSE less than 200. ",
-      "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
-    ],
-    url: "https://www.kaggle.com/code/pannsengpanich/house-prices-analysis",
-    date: "Dec 2023",
-  },
-  {
     head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
     details: [
       "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with f1-score = 0.8.",
@@ -97,6 +88,16 @@ export const ProjData = [
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "Jan 2024",
   },
+  {
+    head: "Kaggle's House Prices Prediction Project ",
+    details: [
+      "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices with RMSE less than 200. ",
+      "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
+    ],
+    url: "https://www.kaggle.com/code/pannsengpanich/house-prices-analysis",
+    date: "Dec 2023",
+  },
+
   {
     head: "ICE Capstone Project",
     details: [
@@ -110,18 +111,17 @@ export const ProjData = [
 ];
 export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
-
-  {
-    head: "Member of New Investor Program for Society (NIP-S 35)",
-    details: [
-      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets. Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
-    ],
-    url: "",
-  },
   {
     head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
       "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
+    ],
+    url: "",
+  },
+  {
+    head: "Member of New Investor Program for Society (NIP-S 35)",
+    details: [
+      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets. Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
     ],
     url: "",
   },
@@ -144,13 +144,14 @@ export const MisData = [
 export const CerData = [
   { topic: "CERTIFICATIONS" },
   {
-    head: "Master SQL For Data Science",
-    url: "https://www.udemy.com/certificate/UC-fb1dfcac-a15e-4197-b99e-7327e8af1428/",
-  },
-  {
     head: "Python for Data Science and Machine Learning Bootcamp",
     url: "https://www.udemy.com/certificate/UC-ff659d9b-0638-4480-9e14-27bfaa605c3f/",
   },
+  {
+    head: "Master SQL For Data Science",
+    url: "https://www.udemy.com/certificate/UC-fb1dfcac-a15e-4197-b99e-7327e8af1428/",
+  },
+
   {
     head: "Data Science Real World Projects in Python",
     url: "https://www.udemy.com/certificate/UC-6f4ff25d-7789-46f7-9853-9298645be36c/",
