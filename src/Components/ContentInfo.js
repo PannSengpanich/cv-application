@@ -56,8 +56,31 @@ export default function ContentInfo(props) {
                 )}
                 {Array.isArray(item.details) ? (
                   <ul>
-                    {item.details.map((detail) => {
-                      return <li className={styles.detail}>{detail}</li>;
+                    {item.details.map((detail, index) => {
+                      return (
+                        <li key={index} className={styles.detail}>
+                          {typeof detail === "object" ? (
+                            <>
+                              {detail.main}
+                              {Array.isArray(detail.subdetails) && (
+                                <ul>
+                                  {detail.subdetails.map(
+                                    (subdetail, subIndex) => (
+                                      <li
+                                        key={subIndex}
+                                        className={styles.subdetail}>
+                                        {subdetail}
+                                      </li>
+                                    )
+                                  )}
+                                </ul>
+                              )}
+                            </>
+                          ) : (
+                            detail
+                          )}
+                        </li>
+                      );
                     })}
                   </ul>
                 ) : (

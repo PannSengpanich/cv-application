@@ -14,7 +14,7 @@ export const TechData = [
     details: [
       "Python, PyTorch, SQL, Java, JavaScript, HTML ,CSS, SCSS.",
       "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
-      "Github, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse, Microsoft Office, Figma, Canva.",
+      " Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
     ],
   },
 ];
@@ -54,7 +54,7 @@ export const WorkData = [
 
     details: [
       "Addressed and resolved bugs, optimizing component placement on the land management website, resulting in a 25% reduction in site usage time.",
-      "Designed and implemented a machine learning website for internal use, incorporating UX/UI design principles, integrating API data, transitioning from PHP to React, and utilizing additional libraries such as Chart.js and SCSS.",
+      "Designed and implemented a website for internal use, incorporating UX/UI design principles, integrating API data, transitioning from PHP to React, and utilizing additional libraries such as Chart.js and SCSS.",
     ],
     date: "June 2023 - July 2023",
   },
@@ -64,8 +64,10 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "ICE: Information and Communication Engineering (GPAX 3.61)",
-      "AERO: Aerospace Engineering (2020-2022)",
+      "Information and Communication Engineering (GPAX 3.61)",
+      {
+        main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers ",
+      },
     ],
     date: "2020-Present",
   },
@@ -82,22 +84,12 @@ export const ProjData = [
   {
     head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
     details: [
-      "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with f1-score = 0.8.",
+      "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with F1-score = 0.8.",
       "Analyzed columns or features of the data using Pearson correlation and feature selection.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "Jan 2024",
   },
-  {
-    head: "Kaggle's House Prices Prediction Project ",
-    details: [
-      "Created predictive models, such as random forest, linear regressor, and deep learning, to predict house prices with RMSE less than 200. ",
-      "Analyzed over 80 columns or features of the data, filtered, and minimized them using Pearson Correlation, one-hot encoding, target-guided encoding, and feature selection. ",
-    ],
-    url: "https://www.kaggle.com/code/pannsengpanich/house-prices-analysis",
-    date: "Dec 2023",
-  },
-
   {
     head: "ICE Capstone Project",
     details: [
@@ -107,6 +99,15 @@ export const ProjData = [
     ],
     url: "https://github.com/Athcess/athcess-frontend",
     date: "May 2024",
+  },
+  {
+    head: "Data Analysis Project",
+    details: [
+      "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
+      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly",
+    ],
+    url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
+    date: "Oct 2022",
   },
 ];
 export const MisData = [
