@@ -12,9 +12,9 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     details: [
-      "Python, PyTorch, SQL, Java, JavaScript, HTML ,CSS, SCSS.",
+      "Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
       "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
-      " Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
+      "Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
     ],
   },
 ];
@@ -43,10 +43,10 @@ export const WorkData = [
     head: "EY (as Risk Consulting - Financial Service Risk Management)",
 
     details: [
-      "Validated the performance of the scorecard after development using performance metrics such as AUC, GINI, KS, and IV, and then visualized the performance using Seaborn.",
+      "Performed qualitative and quantitative validation for SME Bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
       "Simplified and automated the credit scoring model by assigning the score of each factor to customers using the scorecard instead of re-running the entire model, reducing time spent by 30%.",
     ],
-    date: "June 2024 - July 2024",
+    date: "June 2024 - Present",
   },
 
   {
@@ -64,7 +64,7 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.61)",
+      "Information and Communication Engineering (GPAX 3.63)",
       {
         main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers ",
       },
