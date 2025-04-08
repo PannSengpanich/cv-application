@@ -20,7 +20,7 @@ export default function ContentInfo(props) {
           <>
             {index !== 0 && (
               <>
-                {item.url && item.head ? (
+                {/* {item.url && item.head ? (
                   <>
                     <div className={styles.head}>
                       <a
@@ -43,6 +43,16 @@ export default function ContentInfo(props) {
                       </div>
                     </div>
                   </>
+                ) : (
+                  <></>
+                )} */}
+                {item.head ? (
+                  <div className={styles.head}>
+                    <div className={styles.headLeft}>{item.head}</div>
+                    <div className={styles.headRight}>
+                      {item.date && <div>{item.date}</div>}
+                    </div>
+                  </div>
                 ) : (
                   <></>
                 )}
