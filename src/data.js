@@ -43,10 +43,10 @@ export const WorkData = [
     head: "EY (as Risk Consulting - Financial Service Risk Management)",
 
     details: [
-      "Performed qualitative and quantitative validation for SME Bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
+      "Performed qualitative and quantitative validation of PD and LGD model for SME Bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
       "Simplified and automated the credit scoring model by assigning the score of each factor to customers using the scorecard instead of re-running the entire model, reducing time spent by 30%.",
     ],
-    date: "June 2024 - Present",
+    date: "June 2024 - April 2025",
   },
 
   {
@@ -64,7 +64,7 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63)",
+      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models",
       {
         main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers ",
       },
@@ -94,7 +94,7 @@ export const ProjData = [
     head: "ICE Capstone Project",
     details: [
       "Led the front-end team in creating 'ATHCESS', a fully functional web application that connects athletes with scouts, enhancing visibility for athletes.",
-      "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
+      // "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
       "Collaborated with other teams, assigned and planned work for team members, and provided guidance to the team.",
     ],
     url: "https://github.com/Athcess/athcess-frontend",
@@ -112,6 +112,15 @@ export const ProjData = [
 ];
 export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
+  {
+    head: "Chulalongkorn Case Discovery 2025 - Semi-Finalist",
+    details: [
+      "Advanced to semi-finals round of prestigious business case competition, ranking among top 10% of participants (20 teams selected from 200)",
+      "Developed strategic recommendations for Bar B Q Plaza to leverage their iconic mascot Bar B GON as a standalone revenue-generating entity",
+      "Delivered a compelling 15-minute presentation followed by a rigorous Q&A session with industry experts and competition judges",
+    ],
+    url: "",
+  },
   {
     head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
