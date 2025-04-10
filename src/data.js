@@ -64,9 +64,9 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models",
+      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models.",
       {
-        main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers ",
+        main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
       },
     ],
     date: "2020-Present",
@@ -74,7 +74,7 @@ export const EdData = [
 
   {
     head: "Saint Gabriel's College",
-    details: ["Math & Science (GPAX: 3.94)"],
+    details: ["Math & Science (GPAX: 3.94)."],
     date: "2008-2020",
   },
 ];
@@ -104,7 +104,7 @@ export const ProjData = [
     head: "Data Analysis Project",
     details: [
       "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
-      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly",
+      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
@@ -115,23 +115,25 @@ export const MisData = [
   {
     head: "Chulalongkorn Case Discovery 2025 - Semi-Finalist",
     details: [
-      "Advanced to semi-finals round of prestigious business case competition, ranking among top 10% of participants (20 teams selected from 200)",
-      "Developed strategic recommendations for Bar B Q Plaza to leverage their iconic mascot Bar B GON as a standalone revenue-generating entity",
-      "Delivered a compelling 15-minute presentation followed by a rigorous Q&A session with industry experts and competition judges",
+      "Advanced to semi-finals round of prestigious business case competition, ranking among top 10% of participants (20 teams selected from 200).",
+      "Developed strategic recommendations for Bar B Q Plaza to leverage their iconic mascot Bar B GON as a standalone revenue-generating entity.",
+      "Delivered a compelling 15-minute presentation as a group followed by a rigorous Q&A session with industry experts and competition judges.",
     ],
     url: "",
   },
   {
     head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
-      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders. Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
+      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders.",
+      "Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
     ],
     url: "",
   },
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details: [
-      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets. Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
+      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
+      "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
     ],
     url: "",
   },
