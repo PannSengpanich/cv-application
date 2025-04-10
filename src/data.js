@@ -115,9 +115,9 @@ export const MisData = [
   {
     head: "Chulalongkorn Case Discovery 2025 - Semi-Finalist",
     details: [
-      "Advanced to semi-finals round of prestigious business case competition, ranking among top 10% of participants (20 teams selected from 200).",
+      "Advanced to semi-finals round of prestigious business case competition, ranking among top 10% of participants.",
       "Developed strategic recommendations for Bar B Q Plaza to leverage their iconic mascot Bar B GON as a standalone revenue-generating entity.",
-      "Delivered a compelling 15-minute presentation as a group followed by a rigorous Q&A session with industry experts and competition judges.",
+      "Collaborated on a compelling 15-minute group presentation, followed by a rigorous Q&A session with industry experts and competition judges.",
     ],
     url: "",
   },
