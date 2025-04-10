@@ -61,14 +61,14 @@ ul {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 24px;
+    font-size: 28px;
   }
   .head,
   .org {
-    font-size: 22px;
+    font-size: 24px;
   }
   .detail {
-    font-size: 20px;
+    font-size: 19px;
   }
   .url {
     /* display: none; */
