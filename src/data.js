@@ -82,6 +82,15 @@ export const EdData = [
 export const ProjData = [
   { topic: "PROJECTS" },
   {
+    head: "Senior Project (AI Course Icon Generator Project)",
+    details: [
+      "Developed an automated system using Stable Diffusion 2.1 with DreamBooth fine-tuning techniques to generate contextually relevant and visually appealing course icons for university learning platforms.",
+      "Optimized inference parameters through systematic testing, achieving optimal balance between quality metrics (CLIP Score: 0.7358, Inception Score: 8.2112) and generation speed.",
+    ],
+    url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
+    date: "May 2025",
+  },
+  {
     head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
     details: [
       "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with F1-score = 0.8.",
@@ -90,16 +99,16 @@ export const ProjData = [
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "Jan 2024",
   },
-  {
-    head: "ICE Capstone Project",
-    details: [
-      "Led the front-end team in creating 'ATHCESS', a fully functional web application that connects athletes with scouts, enhancing visibility for athletes.",
-      // "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
-      "Collaborated with other teams, assigned and planned work for team members, and provided guidance to the team.",
-    ],
-    url: "https://github.com/Athcess/athcess-frontend",
-    date: "May 2024",
-  },
+  // {
+  //   head: "ICE Capstone Project",
+  //   details: [
+  //     "Led the front-end team in creating 'ATHCESS', a fully functional web application that connects athletes with scouts, enhancing visibility for athletes.",
+  //     // "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
+  //     "Collaborated with other teams, assigned and planned work for team members, and provided guidance to the team.",
+  //   ],
+  //   url: "https://github.com/Athcess/athcess-frontend",
+  //   date: "May 2024",
+  // },
   {
     head: "Data Analysis Project",
     details: [
