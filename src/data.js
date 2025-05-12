@@ -19,9 +19,9 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     details: [
-      "Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
-      "PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
-      "Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
+      "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
+      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
+      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
     ],
   },
 ];
