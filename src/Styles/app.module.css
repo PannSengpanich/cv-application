@@ -6,6 +6,14 @@
   font-family: "Cabin";
   src: url("/src//fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
 }
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/src//fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Interstate";
+  src: url("/src//fonts/Interstate.ttf") format("truetype");
+}
 .mainContainer {
   display: grid;
   /* justify-content: center; */
@@ -18,7 +26,7 @@
 }
 .mainContainer > * {
   width: 100%;
-  font-family: "Cabin";
+  font-family: "Interstate";
 }
 @keyframes fadeInAnimation {
   from {

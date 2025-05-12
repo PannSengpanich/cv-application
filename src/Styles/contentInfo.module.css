@@ -48,7 +48,15 @@ span {
 
 .detail {
   font-size: 1.1rem;
+  /* font-weight: lighter; */
   margin: 0px 10px 0px 15px;
+  text-align: justify;
+}
+.paragraph {
+  font-size: 1.1rem;
+  /* font-weight: lighter; */
+  margin: 2px 10px 7px 15px;
+  text-align: justify;
 }
 .url {
   height: auto;
@@ -61,14 +69,19 @@ ul {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 28px;
+    font-size: 24px;
   }
   .head,
   .org {
-    font-size: 24px;
+    font-size: 22px;
   }
   .detail {
     font-size: 19px;
+    text-align: justify;
+  }
+  .paragraph {
+    font-size: 19px;
+    text-align: justify;
   }
   .url {
     /* display: none; */
@@ -86,6 +99,10 @@ ul {
     font-size: 0.5rem;
   }
   .detail {
+    font-size: 0.6rem;
+    margin: 0px 10px 5px 15px;
+  }
+  .paragraph {
     font-size: 0.6rem;
     margin: 0px 10px 5px 15px;
   }

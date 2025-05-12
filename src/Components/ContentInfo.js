@@ -78,10 +78,11 @@ export default function ContentInfo(props) {
                                     (subdetail, subIndex) => (
                                       <li
                                         key={subIndex}
-                                        className={styles.subdetail}>
+                                        className={styles.subdetail}
+                                      >
                                         {subdetail}
                                       </li>
-                                    )
+                                    ),
                                   )}
                                 </ul>
                               )}
@@ -94,7 +95,7 @@ export default function ContentInfo(props) {
                     })}
                   </ul>
                 ) : (
-                  <div className={styles.detail}>{item.details}</div>
+                  <div className={styles.paragraph}>{item.details}</div>
                 )}
               </>
             )}

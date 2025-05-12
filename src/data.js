@@ -8,6 +8,13 @@ export const InfoData = {
   website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
   kaggle: "www.kaggle.com/pannsengpanich",
 };
+export const SummaryData = [
+  { topic: "SUMMARY" },
+  {
+    details:
+      "Experienced in applying data science and machine learning to analyze complex financial datasets and develop predictive models. Proven success in validating PD and LGD models using SAS, and automating credit scoring processes. Skilled in fine-tuning Stable Diffusion models and collaborating on cross-functional projects across finance, technology, and data analysis domains.",
+  },
+];
 export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
@@ -28,7 +35,7 @@ export const IntLangData = [
   },
   {
     head: "Languages:",
-    details: ["Fluent in Thai and English, basic Chinese."],
+    details: ["Fluent in Thai and English."],
   },
   {
     head: "Hobbies:",
@@ -69,7 +76,7 @@ export const EdData = [
         main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
       },
     ],
-    date: "2020-Present",
+    date: "2020-2025",
   },
 
   {
@@ -138,14 +145,14 @@ export const MisData = [
     ],
     url: "",
   },
-  {
-    head: "Member of New Investor Program for Society (NIP-S 35)",
-    details: [
-      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
-      "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
-    ],
-    url: "",
-  },
+  // {
+  //   head: "Member of New Investor Program for Society (NIP-S 35)",
+  //   details: [
+  //     "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
+  //     "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
+  //   ],
+  //   url: "",
+  // },
 
   // {
   //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
@@ -180,6 +187,7 @@ export const CerData = [
 ];
 
 export const data = {
+  SummaryData,
   InfoData,
   TechData,
   WorkData,
