@@ -22,11 +22,11 @@ function App() {
         info={currentData.InfoData}
         className={styles.generalInfo}
       ></GeneralInfo>
-      <ContentInfo
+      {/* <ContentInfo
         info={currentData.SummaryData}
         className={styles.misInfo}
         updateInfo={(newData) => updateData("SummaryData", newData)}
-      ></ContentInfo>
+      ></ContentInfo> */}
       <ContentInfo
         info={currentData.WorkData}
         className={styles.workInfo}

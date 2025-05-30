@@ -71,7 +71,7 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.62) with a B+ in Introduction to Stochastic Models.",
+      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models.",
       {
         main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
       },
@@ -79,11 +79,11 @@ export const EdData = [
     date: "2020-2025",
   },
 
-  {
-    head: "Saint Gabriel's College",
-    details: ["Math & Science (GPAX: 3.94)."],
-    date: "2008-2020",
-  },
+  // {
+  //   head: "Saint Gabriel's College",
+  //   details: ["Math & Science (GPAX: 3.94)."],
+  //   date: "2008-2020",
+  // },
 ];
 
 export const ProjData = [
@@ -145,14 +145,14 @@ export const MisData = [
     ],
     url: "",
   },
-  // {
-  //   head: "Member of New Investor Program for Society (NIP-S 35)",
-  //   details: [
-  //     "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
-  //     "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
-  //   ],
-  //   url: "",
-  // },
+  {
+    head: "Member of New Investor Program for Society (NIP-S 35)",
+    details: [
+      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
+      "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
+    ],
+    url: "",
+  },
 
   // {
   //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
