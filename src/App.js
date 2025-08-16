@@ -33,6 +33,11 @@ function App() {
         updateInfo={(newData) => updateData("WorkData", newData)}
       ></ContentInfo>
       <ContentInfo
+        info={currentData.InternshipData}
+        className={styles.workInfo}
+        updateInfo={(newData) => updateData("InternshipData", newData)}
+      ></ContentInfo>
+      <ContentInfo
         info={currentData.EdData}
         className={styles.edInfo}
         updateInfo={(newData) => updateData("EdData", newData)}

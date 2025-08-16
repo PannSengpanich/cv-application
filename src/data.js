@@ -44,20 +44,32 @@ export const IntLangData = [
     ],
   },
 ];
+
 export const WorkData = [
-  { topic: "WORK EXPERIENCES (INTERNSHIP)" },
+  { topic: "WORK EXPERIENCES" },
   {
-    head: "EY (as Risk Consulting - Financial Service Risk Management)",
+    head: "EY (Risk Consulting - Financial Service Risk Management)",
+    details: [
+      "Performed full-scale qualitative and quantitative validation of credit scoring model including A and B-Score for government bank using SSMS for data assessment and data replication, Python for model re-performance and model testing, and PowerBI for results visualization.",
+      "Attended strategic meetings and comprehensive training sessions with cross-functional teams, significantly enhancing presentation and communication skills through direct client interaction.",
+      "Developed detailed documentation and reporting for model validation findings and recommendations.",
+    ],
+    date: "June 2025 - Present",
+  },
+];
+export const InternshipData = [
+  { topic: "INTERNSHIP EXPERIENCES" },
+  {
+    head: "EY (Risk Consulting - Financial Service Risk Management)",
 
     details: [
-      "Performed qualitative and quantitative validation of PD and LGD model for SME Bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
-      "Simplified and automated the credit scoring model by assigning the score of each factor to customers using the scorecard instead of re-running the entire model, reducing time spent by 30%.",
+      "Performed data assessment and model testing of PD and LGD model for government bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
     ],
     date: "June 2024 - April 2025",
   },
 
   {
-    head: "Gulf JP CRN Co., Ltd (as Frontend Developer)",
+    head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
 
     details: [
       "Addressed and resolved bugs, optimizing component placement on the land management website, resulting in a 25% reduction in site usage time.",
@@ -97,15 +109,15 @@ export const ProjData = [
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "May 2025",
   },
-  {
-    head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
-    details: [
-      "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with F1-score = 0.8.",
-      "Analyzed columns or features of the data using Pearson correlation and feature selection.",
-    ],
-    url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
-    date: "Jan 2024",
-  },
+  // {
+  //   head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
+  //   details: [
+  //     "Created a predictive model by utilizing TF-IDF vectorizer and logistic regressor to predict which tweets are about real disasters and which ones are not with F1-score = 0.8.",
+  //     "Analyzed columns or features of the data using Pearson correlation and feature selection.",
+  //   ],
+  //   url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
+  //   date: "Jan 2024",
+  // },
   // {
   //   head: "ICE Capstone Project",
   //   details: [
@@ -190,6 +202,7 @@ export const data = {
   SummaryData,
   InfoData,
   TechData,
+  InternshipData,
   WorkData,
   EdData,
   ProjData,
