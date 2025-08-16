@@ -104,7 +104,7 @@ export const ProjData = [
     head: "Senior Project (AI Course Icon Generator Project)",
     details: [
       "Developed an automated system using Stable Diffusion 2.1 with DreamBooth fine-tuning techniques to generate contextually relevant and visually appealing course icons for university learning platforms.",
-      "Optimized inference parameters through systematic testing, achieving optimal balance between quality metrics (CLIP Score: 0.7358, Inception Score: 8.2112) and generation speed.",
+      "Optimized inference parameters through systematic testing, achieving optimal balance between quality metrics such as CLIP Score, and Inception Score, and generation speed.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "May 2025",
@@ -131,7 +131,7 @@ export const ProjData = [
   {
     head: "Data Analysis Project",
     details: [
-      "Analyzed data sets with over 1000 rows, explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
+      "Analyzed data sets and explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
       "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
@@ -143,8 +143,8 @@ export const MisData = [
   {
     head: "Chulalongkorn Case Discovery 2025 - Semi-Finalist",
     details: [
-      "Advanced to semi-finals round of prestigious business case competition, ranking among top 10% of participants.",
-      "Developed strategic recommendations for Bar B Q Plaza to leverage their iconic mascot Bar B GON as a standalone revenue-generating entity.",
+      "Advanced to semi-finals round of competitive business case competition, ranking among top 10% of participants.",
+      "Developed strategic recommendations to leverage their iconic mascot as a standalone revenue-generating entity.",
       "Collaborated on a compelling 15-minute group presentation, followed by a rigorous Q&A session with industry experts and competition judges.",
     ],
     url: "",
