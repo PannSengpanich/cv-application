@@ -48,7 +48,7 @@ export const IntLangData = [
 export const WorkData = [
   { topic: "WORK EXPERIENCES" },
   {
-    head: "EY (Risk Consulting - Financial Service Risk Management)",
+    head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
       "Performed full-scale qualitative and quantitative validation of credit scoring model including A and B-Score for government bank using SSMS for data assessment and data replication, Python for model re-performance and model testing, and PowerBI for results visualization.",
       "Attended strategic meetings and comprehensive training sessions with cross-functional teams, significantly enhancing presentation and communication skills through direct client interaction.",
@@ -60,7 +60,7 @@ export const WorkData = [
 export const InternshipData = [
   { topic: "INTERNSHIP EXPERIENCES" },
   {
-    head: "EY (Risk Consulting - Financial Service Risk Management)",
+    head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
       "Performed data assessment and model testing of PD and LGD model for government bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
