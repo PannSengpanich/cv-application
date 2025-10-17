@@ -69,14 +69,14 @@ ul {
 @media print {
   .topic {
     border-bottom: 1px solid grey;
-    font-size: 24px;
+    font-size: 25px;
   }
   .head,
   .org {
-    font-size: 22px;
+    font-size: 23px;
   }
   .detail {
-    font-size: 19px;
+    font-size: 20px;
     text-align: justify;
   }
   .paragraph {
