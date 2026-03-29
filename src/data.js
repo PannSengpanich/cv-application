@@ -50,8 +50,8 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Performed full-scale qualitative and quantitative validation of credit scoring model including A and B-Score for government bank using SSMS for data assessment and data replication, Python for model re-performance and model testing, and PowerBI for results visualization.",
-      "Attended strategic meetings and comprehensive training sessions with cross-functional teams, significantly enhancing presentation and communication skills through direct client interaction.",
+      "Performed end-to-end qualitative and quantitative validation of regulatory and non-regulatory credit risk models, including IFRS 9 / TFRS 9 impairment and credit scoring models for financial institutions, leveraging SQL and Python to enhance regulatory compliance and deliver more reliable risk assessment for decision-making",
+      "Attended strategic meetings and comprehensive training sessions with cross-functional teams, supporting client discussions and facilitating alignment between technical findings and business objectives.",
       "Developed detailed documentation and reporting for model validation findings and recommendations.",
     ],
     date: "June 2025 - Present",
@@ -63,7 +63,7 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Performed data assessment and model testing of PD and LGD model for government bank using SAS programs to check the accuracy of input data and Excel to conduct analysis with metrics such as GINI, KS, Binomial test, and PSI.",
+      "Performed quantitative validation of PD and LGD models for a government bank using SAS for data accuracy checks and Excel for analysis with metrics such as Gini, KS, binomial test, and PSI, ensuring model performance reliability and compliance with regulatory standards.",
     ],
     date: "June 2024 - April 2025",
   },
