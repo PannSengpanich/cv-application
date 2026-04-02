@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Experienced in applying data science and machine learning to analyze complex financial datasets and develop predictive models. Proven success in validating PD and LGD models using SAS, and automating credit scoring processes. Skilled in fine-tuning Stable Diffusion models and collaborating on cross-functional projects across finance, technology, and data analysis domains.",
+      "Data-oriented professional with hands-on experience transforming complex financial datasets into trusted, actionable insights. Proven track record building and validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
   },
 ];
 export const TechData = [
@@ -50,9 +50,9 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Performed end-to-end qualitative and quantitative validation of regulatory and non-regulatory credit risk models, including IFRS 9 / TFRS 9 impairment and credit scoring models for financial institutions, leveraging SQL and Python to enhance regulatory compliance and deliver more reliable risk assessment for decision-making",
-      "Attended strategic meetings and comprehensive training sessions with cross-functional teams, supporting client discussions and facilitating alignment between technical findings and business objectives.",
-      "Developed detailed documentation and reporting for model validation findings and recommendations.",
+      "Built and validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality assets that power reliable risk decisions.",
+      "Collaborated with cross-functional stakeholders — including business, risk, and technology teams — to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
+      "Developed clear documentation and dashboards for model validation findings, improving data literacy and enabling self-serve insight access for client teams.",
     ],
     date: "June 2025 - Present",
   },
@@ -63,20 +63,20 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Performed quantitative validation of PD and LGD models for a government bank using SAS for data accuracy checks and Excel for analysis with metrics such as Gini, KS, binomial test, and PSI, ensuring model performance reliability and compliance with regulatory standards.",
+      "Delivered quantitative data quality assurance on PD and LGD models for a government bank, using SAS and Excel to validate data accuracy and model performance (Gini, KS, PSI, binomial test), ensuring high-quality, reliable data assets for regulatory and business decision-making.",
     ],
     date: "June 2024 - April 2025",
   },
 
-  {
-    head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
+  // {
+  //   head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
 
-    details: [
-      "Addressed and resolved bugs, optimizing component placement on the land management website, resulting in a 25% reduction in site usage time.",
-      "Designed and implemented a website for internal use, incorporating UX/UI design principles, integrating API data, transitioning from PHP to React, and utilizing additional libraries such as Chart.js and SCSS.",
-    ],
-    date: "June 2023 - July 2023",
-  },
+  //   details: [
+  //     "Addressed and resolved bugs, optimizing component placement on the land management website, resulting in a 25% reduction in site usage time.",
+  //     "Designed and implemented a website for internal use, incorporating UX/UI design principles, integrating API data, transitioning from PHP to React, and utilizing additional libraries such as Chart.js and SCSS.",
+  //   ],
+  //   date: "June 2023 - July 2023",
+  // },
 ];
 export const EdData = [
   { topic: "EDUCATIONS" },
@@ -103,7 +103,7 @@ export const ProjData = [
   {
     head: "Senior Project (AI Course Icon Generator Project)",
     details: [
-      "Developed an automated system using Stable Diffusion 2.1 with DreamBooth fine-tuning techniques to generate contextually relevant and visually appealing course icons for university learning platforms.",
+      "Developed an automated AI data product using Stable Diffusion 2.1 with DreamBooth fine-tuning to generate course icons at scale, replacing a manual design process and directly improving university platform user experience.",
       "Optimized inference parameters through systematic testing, achieving optimal balance between quality metrics such as CLIP Score, and Inception Score, and generation speed.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
@@ -131,8 +131,8 @@ export const ProjData = [
   {
     head: "Data Analysis Project",
     details: [
-      "Analyzed data sets and explored drug usage patterns by age and education, investigated correlations between The Big Five personality traits and drug use using Python and MongoDB. ",
-      "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
+      "Turned raw behavioral datasets into structured insights on drug usage patterns and personality trait correlations, using Python and MongoDB to build a reproducible analytics pipeline from data ingestion to visualization. ",
+      // "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
     ],
     url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
     date: "Oct 2022",
