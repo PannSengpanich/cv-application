@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Data-oriented professional with hands-on experience transforming complex financial datasets into trusted, actionable insights. Proven track record building and validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
+      "Data-driven problem solver with hands-on experience transforming complex financial datasets into trusted, actionable insights. Proven track record building and validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
   },
 ];
 export const TechData = [
@@ -20,8 +20,8 @@ export const TechData = [
   {
     details: [
       "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
-      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
-      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
+      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, MongoDB.",
+      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode,  Figma, Canva.",
     ],
   },
 ];
@@ -50,8 +50,8 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Built and validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality assets that power reliable risk decisions.",
-      "Collaborated with cross-functional stakeholders — including business, risk, and technology teams — to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
+      "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
+      "Collaborated with cross-functional stakeholders — including business, risk, and technology teams to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
       "Developed clear documentation and dashboards for model validation findings, improving data literacy and enabling self-serve insight access for client teams.",
     ],
     date: "June 2025 - Present",
@@ -83,10 +83,8 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models.",
-      {
-        main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
-      },
+      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing and B+ in Database Systems.",
+      "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
     ],
     date: "2020-2025",
   },
@@ -122,7 +120,7 @@ export const ProjData = [
   //   head: "ICE Capstone Project",
   //   details: [
   //     "Led the front-end team in creating 'ATHCESS', a fully functional web application that connects athletes with scouts, enhancing visibility for athletes.",
-  //     // "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
+  // "Developed a user-friendly interface, implemented UX/UI-designed pages, and integrated API data from the back-end.",
   //     "Collaborated with other teams, assigned and planned work for team members, and provided guidance to the team.",
   //   ],
   //   url: "https://github.com/Athcess/athcess-frontend",
@@ -144,7 +142,7 @@ export const MisData = [
     head: "Chulalongkorn Case Discovery 2025 - Semi-Finalist",
     details: [
       "Advanced to semi-finals round of competitive business case competition, ranking among top 10% of participants.",
-      "Developed strategic recommendations to leverage their iconic mascot as a standalone revenue-generating entity.",
+      "Developed data-backed strategic recommendations to unlock a new revenue stream, synthesizing market and customer data into a compelling business case.",
       "Collaborated on a compelling 15-minute group presentation, followed by a rigorous Q&A session with industry experts and competition judges.",
     ],
     url: "",
@@ -157,14 +155,14 @@ export const MisData = [
     ],
     url: "",
   },
-  {
-    head: "Member of New Investor Program for Society (NIP-S 35)",
-    details: [
-      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
-      "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
-    ],
-    url: "",
-  },
+  // {
+  //   head: "Member of New Investor Program for Society (NIP-S 35)",
+  //   details: [
+  //     "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
+  //     "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
+  //   ],
+  //   url: "",
+  // },
 
   // {
   //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
