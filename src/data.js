@@ -63,7 +63,7 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Delivered quantitative data quality assurance on PD and LGD models for a government bank, using SAS and Excel to validate data accuracy and model performance (Gini, KS, PSI, binomial test), ensuring high-quality, reliable data assets for regulatory and business decision-making.",
+      "Delivered quantitative data quality assurance on PD and LGD models for a government bank, using SAS and Excel to validate data accuracy and model performance (Gini, KS, PSI, binomial test), ensuring high-quality, reliable outputs for regulatory and business decision-making.",
     ],
     date: "June 2024 - April 2025",
   },
