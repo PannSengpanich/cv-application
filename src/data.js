@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Data-driven problem solver with hands-on experience transforming complex financial datasets into trusted, actionable insights. Proven track record building and validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
+      "Data-driven problem solver with hands-on experience transforming complex financial datasets into reliable, high-quality models. Proven track record validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
   },
 ];
 export const TechData = [
