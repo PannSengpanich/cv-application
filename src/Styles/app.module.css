@@ -14,10 +14,14 @@
   font-family: "Interstate";
   src: url("/src//fonts/Interstate.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Kanit";
   src: url("/src//fonts/Kanit-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("/src//fonts/IBMPlexSans-VariableFont_wdth,wght.ttf")
+    format("truetype");
 }
 .mainContainer {
   display: grid;
@@ -31,7 +35,7 @@
 }
 .mainContainer > * {
   width: 100%;
-  font-family: "Kanit";
+  font-family: "IBMPlexSans";
   line-height: 1.2;
 }
 @keyframes fadeInAnimation {

@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Data-driven problem solver with hands-on experience transforming complex financial datasets into reliable, high-quality models. Proven track record validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
+      "Business-minded analyst with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY gathering requirements, validating solution delivery, and communicating findings to diverse client teams. Comfortable working across agile environments with SQL, Python, and SAS; passionate about translating complex problems into clear, adoptable solutions.",
   },
 ];
 export const TechData = [
@@ -20,7 +20,7 @@ export const TechData = [
   {
     details: [
       "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
-      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, MongoDB.",
+      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, React.",
       "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode,  Figma, Canva.",
     ],
   },
@@ -52,7 +52,7 @@ export const WorkData = [
     details: [
       "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
       "Collaborated with cross-functional stakeholders — including business, risk, and technology teams to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
-      "Developed clear documentation and dashboards for model validation findings, improving data literacy and enabling self-serve insight access for client teams.",
+      "Developed dashboards and model validation documentation to communicate solution value to client teams, driving data literacy and enabling self-serve insight access.",
     ],
     date: "June 2025 - Present",
   },
@@ -63,28 +63,27 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Delivered quantitative data quality assurance on PD and LGD models for a government bank, using SAS and Excel to validate data accuracy and model performance (Gini, KS, PSI, binomial test), ensuring high-quality, reliable outputs for regulatory and business decision-making.",
+      "Gathered and validated business requirements for PD and LGD model acceptance testing at a government bank, using SAS and Excel to verify data accuracy and model performance (Gini, KS, PSI, binomial test) against defined criteria.",
     ],
     date: "June 2024 - April 2025",
   },
 
-  // {
-  //   head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
+  {
+    head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
 
-  //   details: [
-  //     "Addressed and resolved bugs, optimizing component placement on the land management website, resulting in a 25% reduction in site usage time.",
-  //     "Designed and implemented a website for internal use, incorporating UX/UI design principles, integrating API data, transitioning from PHP to React, and utilizing additional libraries such as Chart.js and SCSS.",
-  //   ],
-  //   date: "June 2023 - July 2023",
-  // },
+    details: [
+      "Applied agile principles to iteratively gather requirements from internal stakeholders, designing and implementing a land management web application — migrating from PHP to React — that reduced site usage time by 25%.",
+    ],
+    date: "June 2023 - July 2023",
+  },
 ];
 export const EdData = [
   { topic: "EDUCATIONS" },
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing and B+ in Database Systems.",
-      "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
+      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing, A in Software Engineering, and B+ in Database Systems.",
+      "Aerospace Engineering (2020-2022).",
     ],
     date: "2020-2025",
   },
@@ -101,8 +100,8 @@ export const ProjData = [
   {
     head: "Senior Project (AI Course Icon Generator Project)",
     details: [
-      "Developed an automated AI data product using Stable Diffusion 2.1 with DreamBooth fine-tuning to generate course icons at scale, replacing a manual design process and directly improving university platform user experience.",
-      "Optimized inference parameters through systematic testing, achieving optimal balance between quality metrics such as CLIP Score, and Inception Score, and generation speed.",
+      "Identified a manual design bottleneck in university course icon production and led the solution design, building an automated AI pipeline using Stable Diffusion 2.1 with DreamBooth fine-tuning — replacing a time-intensive manual process.",
+      "Conducted systematic testing across inference parameters to optimize the balance between quality metrics (CLIP Score, Inception Score) and generation speed, documenting findings to support adoption by non-technical stakeholders.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "May 2025",
@@ -126,15 +125,15 @@ export const ProjData = [
   //   url: "https://github.com/Athcess/athcess-frontend",
   //   date: "May 2024",
   // },
-  {
-    head: "Data Analysis Project",
-    details: [
-      "Turned raw behavioral datasets into structured insights on drug usage patterns and personality trait correlations, using Python and MongoDB to build a reproducible analytics pipeline from data ingestion to visualization. ",
-      // "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
-    ],
-    url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
-    date: "Oct 2022",
-  },
+  // {
+  //   head: "Data Analysis Project",
+  //   details: [
+  //     "Turned raw behavioral datasets into structured insights on drug usage patterns and personality trait correlations, using Python and MongoDB to build a reproducible analytics pipeline from data ingestion to visualization. ",
+  //     // "Visualized the findings into charts and graphs using Pandas, Seaborn, Matplotlib, Plotly.",
+  //   ],
+  //   url: "https://colab.research.google.com/drive/1pYmnTwF9VLCE29P57JlTQup9JD_9TPzP",
+  //   date: "Oct 2022",
+  // },
 ];
 export const MisData = [
   { topic: "ACTIVITIES & MISCELLANEOUS" },
@@ -155,6 +154,7 @@ export const MisData = [
     ],
     url: "",
   },
+
   // {
   //   head: "Member of New Investor Program for Society (NIP-S 35)",
   //   details: [
