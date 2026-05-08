@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Data-driven problem solver with hands-on experience transforming complex financial datasets into reliable, high-quality models. Proven track record validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about building scalable, self-serve data solutions that drive measurable business outcomes.",
+      "Data-driven problem solver with hands-on experience transforming complex financial datasets into reliable, high-quality models. Proven track record validating credit risk data products at EY, collaborating across business and technical teams to turn analytical findings into decisions. Comfortable with SQL, Python, and SAS; passionate about scalable model deployment, and building self-serve AI systems that drive measurable outcomes.",
   },
 ];
 export const TechData = [
@@ -50,9 +50,9 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
+      "Validated end-to-end credit risk models (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, building Python and SQL pipelines to transform raw datasets into production-ready, trusted model outputs.",
       "Collaborated with cross-functional stakeholders — including business, risk, and technology teams to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
-      "Developed clear documentation and dashboards for model validation findings, improving data literacy and enabling self-serve insight access for client teams.",
+      "Built model monitoring dashboards tracking performance metrics (Gini, KS, PSI) to detect model drift and support continuous model reliability in production environments, improving data literacy and enabling self-serve insight access for client teams.",
     ],
     date: "June 2025 - Present",
   },
@@ -63,7 +63,7 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Delivered quantitative data quality assurance on PD and LGD models for a government bank, using SAS and Excel to validate data accuracy and model performance (Gini, KS, PSI, binomial test), ensuring high-quality, reliable outputs for regulatory and business decision-making.",
+      "Built and executed quantitative validation for PD and LGD models at a government bank using Python and SAS, automating data quality checks and model performance evaluation (Gini, KS, PSI, binomial test) to ensure production-ready, regulatory-compliant outputs.",
     ],
     date: "June 2024 - April 2025",
   },
@@ -83,7 +83,7 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing and B+ in Database Systems.",
+      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing, B+ in Database Systems, and B+ in Introduction to Stochastic Models.",
       "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
     ],
     date: "2020-2025",
@@ -101,8 +101,8 @@ export const ProjData = [
   {
     head: "Senior Project (AI Course Icon Generator Project)",
     details: [
-      "Developed an automated AI data product using Stable Diffusion 2.1 with DreamBooth fine-tuning to generate course icons at scale, replacing a manual design process and directly improving university platform user experience.",
-      "Optimized inference parameters through systematic testing, achieving optimal balance between quality metrics such as CLIP Score, and Inception Score, and generation speed.",
+      "Designed and deployed an automated AI image generation system using Stable Diffusion 2.1 with DreamBooth fine-tuning, replacing a manual design process with a scalable, production-ready pipeline for a university platform.",
+      "Optimized inference parameters through systematic experimentation, balancing quality metrics (CLIP Score, Inception Score) and generation throughput — directly applicable to model optimization in production AI systems.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
     date: "May 2025",
@@ -151,7 +151,7 @@ export const MisData = [
     head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
       "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders.",
-      "Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
+      "Developed professional skills in career planning, goal-setting, and cross-functional communication.",
     ],
     url: "",
   },
