@@ -12,16 +12,16 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Business-minded analyst with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY gathering requirements, validating solution delivery, and communicating findings to diverse client teams. Comfortable working across agile environments with SQL, Python, and SAS; passionate about translating complex problems into clear, adoptable solutions.",
+      "Business-minded financial analyst with hands-on experience translating complex data into actionable insights for senior stakeholders in financial services. Proven track record at EY partnering with cross-functional teams, driving data quality, and communicating financial findings through dashboards and structured reporting. Proficient in Excel, Power BI, SQL, and Python; passionate about turning imperfect, large-scale data into clear decisions that shape business strategy.",
   },
 ];
 export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     details: [
-      "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
-      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, React.",
-      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode,  Figma, Canva.",
+      "Analytics & Reporting: Power BI, Excel, SQL, SAS, Python (Pandas, NumPy, Matplotlib, Plotly, Scikit-Learn).",
+      "Programming: JavaScript, HTML, CSS, SCSS, Java, React.",
+      "Tools & Platforms: GitHub, VSCode, Google Colab, Anaconda, Figma, Canva, Kaggle.",
     ],
   },
 ];
@@ -50,9 +50,9 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
+      "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using Excel and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
       "Collaborated with cross-functional stakeholders — including business, risk, and technology teams to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
-      "Developed dashboards and model validation documentation to communicate solution value to client teams, driving data literacy and enabling self-serve insight access.",
+      "Built Power BI dashboards and model validation documentation to communicate solution value to client teams, driving data literacy and enabling self-serve insight access.",
     ],
     date: "June 2025 - Present",
   },
@@ -63,7 +63,7 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Gathered and validated business requirements for PD and LGD model acceptance testing at a government bank, using SAS and Excel to verify data accuracy and model performance (Gini, KS, PSI, binomial test) against defined criteria.",
+      "Gathered and validated business requirements for PD model acceptance testing at a government bank, using SAS and Excel to verify data accuracy and model performance (Gini, KS, PSI, binomial test) against defined criteria.",
     ],
     date: "June 2024 - April 2025",
   },
