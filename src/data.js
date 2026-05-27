@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Business-minded analyst with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY gathering requirements, validating solution delivery, and communicating findings to diverse client teams. Comfortable working across agile environments with SQL, Python, and SAS; passionate about translating complex problems into clear, adoptable solutions.",
+      "Business-minded data analyst with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY working with financial institutions to validate credit risk data products (IFRS 9 / TFRS 9), develop quality assurance frameworks, and produce clear technical documentation. Proficient in Python, SQL, and SAS; passionate about translating complex problems into clear, adoptable solutions.",
   },
 ];
 export const TechData = [
