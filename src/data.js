@@ -82,8 +82,8 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing, A in Software Engineering, and B+ in Database Systems.",
-      "Aerospace Engineering (2020-2022).",
+      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models. ",
+      "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
     ],
     date: "2020-2025",
   },
