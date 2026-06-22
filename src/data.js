@@ -20,8 +20,8 @@ export const TechData = [
   {
     details: [
       "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
-      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, Angular, MongoDB.",
-      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Eclipse,  Figma, Canva.",
+      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow, React, Redux, MongoDB.",
+      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode, Figma, Canva.",
     ],
   },
 ];
@@ -51,8 +51,8 @@ export const WorkData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
       "Performed end-to-end qualitative and quantitative validation of regulatory and non-regulatory credit risk models, including IFRS 9 / TFRS 9 impairment and credit scoring models for financial institutions, leveraging SQL and Python to enhance regulatory compliance and deliver more reliable risk assessment for decision-making",
-      "Attended strategic meetings and comprehensive training sessions with cross-functional teams, supporting client discussions and facilitating alignment between technical findings and business objectives.",
-      "Developed detailed documentation and reporting for model validation findings and recommendations.",
+      "Collaborated with cross-functional stakeholders — including business, risk, and technology teams, supporting client discussions and facilitating alignment between technical findings and business objectives.",
+      "Developed clear documentation and dashboards for model validation findings, improving data literacy and enabling self-serve insight access for client teams.",
     ],
     date: "June 2025 - Present",
   },
@@ -83,10 +83,8 @@ export const EdData = [
   {
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with a B+ in Introduction to Stochastic Models.",
-      {
-        main: "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
-      },
+      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing and B+ in Database Systems.",
+      "Aerospace Engineering (2020-2022) with an A in Probability and Statistics for Engineers.",
     ],
     date: "2020-2025",
   },
@@ -145,7 +143,7 @@ export const MisData = [
     details: [
       "Advanced to semi-finals round of competitive business case competition, ranking among top 10% of participants.",
       "Developed strategic recommendations to leverage their iconic mascot as a standalone revenue-generating entity.",
-      "Collaborated on a compelling 15-minute group presentation, followed by a rigorous Q&A session with industry experts and competition judges.",
+      // "Collaborated on a compelling 15-minute group presentation, followed by a rigorous Q&A session with industry experts and competition judges.",
     ],
     url: "",
   },
