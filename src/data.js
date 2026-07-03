@@ -3,10 +3,10 @@ export const InfoData = {
   nickname: "Pann",
   phone: "091-803-7803",
   email: "sengpanichpann@gmail.com",
-  github: "PannSengpanich",
+  // github: "PannSengpanich",
   linkedin: "pann-sengpanich/",
   website: "www.youtube.com/channel/UC4At7eSX-7p4OrRUSzeqSLA",
-  kaggle: "www.kaggle.com/pannsengpanich",
+  // kaggle: "www.kaggle.com/pannsengpanich",
 };
 export const SummaryData = [
   { topic: "SUMMARY" },
@@ -26,64 +26,63 @@ export const TechData = [
   },
 ];
 export const IntLangData = [
-  { topic: "INTERESTS & LANGUAGES" },
+  { topic: "ADDITIONAL INFORMATION" },
+  {
+    head: "Languages:",
+    details: [
+      "Thai (Native), English (IELTS 7.5 — Listening 8.5, Reading 8.5, Writing 6.5, Speaking 6.5).",
+    ],
+  },
   {
     head: "Interests:",
     details: [
-      "Data Science, Stock Market, Investment, Cryptocurrency, Metaverse, and Music. ",
+      "Stock Market Investing, Cryptocurrency & Digital Assets, and Music.",
     ],
-  },
-  {
-    head: "Languages:",
-    details: ["Fluent in Thai and English."],
   },
   {
     head: "Hobbies:",
-    details: [
-      "Hanging out, playing musical instruments with friends, and watching movies.",
-    ],
+    details: ["Reading biographies, playing and composing music."],
   },
 ];
-
 export const WorkData = [
   { topic: "WORK EXPERIENCES" },
   {
-    head: "EY (Risk Consultant - Financial Service Risk Management)",
+    head: "EY (Risk Consultant - Financial Service Risk Management), Bangkok, Thailand",
     details: [
       "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
       "Collaborated with cross-functional stakeholders — including business, risk, and technology teams to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
       "Developed dashboards and model validation documentation to communicate solution value to client teams, driving data literacy and enabling self-serve insight access.",
     ],
-    date: "June 2025 - Present",
+    date: "2025 - Present",
   },
 ];
 export const InternshipData = [
   { topic: "INTERNSHIP EXPERIENCES" },
   {
-    head: "EY (Risk Consultant - Financial Service Risk Management)",
+    head: "EY (Risk Consultant - Financial Service Risk Management), Bangkok, Thailand",
 
     details: [
-      "Gathered and validated business requirements for PD and LGD model acceptance testing at a government bank, using SAS and Excel to verify data accuracy and model performance (Gini, KS, PSI, binomial test) against defined criteria.",
+      "Performed quantitative validation of credit scoring models for a government bank using SAS and Excel, assessing data quality and model performance through Gini, KS, PSI, and binomial tests.",
     ],
-    date: "June 2024 - April 2025",
+    date: "2024 - 2025",
   },
 
-  {
-    head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
+  // {
+  //   head: "Gulf JP CRN Co., Ltd (Frontend Developer)",
 
-    details: [
-      "Applied agile principles to iteratively gather requirements from internal stakeholders, designing and implementing a land management web application — migrating from PHP to React — that reduced site usage time by 25%.",
-    ],
-    date: "June 2023 - July 2023",
-  },
+  //   details: [
+  //     "Applied agile principles to iteratively gather requirements from internal stakeholders, designing and implementing a land management web application — migrating from PHP to React — that reduced site usage time by 25%.",
+  //   ],
+  //   date: "June 2023 - July 2023",
+  // },
 ];
 export const EdData = [
   { topic: "EDUCATIONS" },
   {
-    head: "Chulalongkorn University: ISE (International School of Engineering)",
+    head: "Chulalongkorn University, Thailand",
     details: [
-      "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing, A in Software Engineering, and B+ in Database Systems.",
-      "Aerospace Engineering (2020-2022).",
+      "ISE (International School of Engineering): Information and Communication Engineering (GPAX 3.63)",
+      // "Aerospace Engineering (2020-2022).",
     ],
     date: "2020-2025",
   },
@@ -104,7 +103,7 @@ export const ProjData = [
       "Conducted systematic testing across inference parameters to optimize the balance between quality metrics (CLIP Score, Inception Score) and generation speed, documenting findings to support adoption by non-technical stakeholders.",
     ],
     url: "https://www.kaggle.com/pannsengpanich/natural-language-processing-with-disaster-tweets",
-    date: "May 2025",
+    date: "",
   },
   // {
   //   head: "Kaggle's Natural Language Processing with Disaster Tweets Prediction Project",
@@ -155,14 +154,14 @@ export const MisData = [
     url: "",
   },
 
-  // {
-  //   head: "Member of New Investor Program for Society (NIP-S 35)",
-  //   details: [
-  //     "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
-  //     "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
-  //   ],
-  //   url: "",
-  // },
+  {
+    head: "Member of New Investor Program for Society (NIP-S 35)",
+    details: [
+      "Acquired insights in diverse investments, including social entrepreneurship, cryptocurrency, and digital assets.",
+      "Explored Thailand's Stock Exchange for insights into stock origins, financial planning, and alternative investments.",
+    ],
+    url: "",
+  },
 
   // {
   //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
@@ -170,14 +169,14 @@ export const MisData = [
   //     "Aimed to mitigate plastic waste and PM2.5 pollution, culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
   //   ],
   // },
-  // {
-  //   head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
-  //   details: [
-  //     "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
-  //     "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
-  //   ],
-  //   url: "",
-  // },
+  {
+    head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
+    details: [
+      "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
+      "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
+    ],
+    url: "",
+  },
 ];
 export const CerData = [
   { topic: "CERTIFICATIONS" },

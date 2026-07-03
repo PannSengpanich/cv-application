@@ -22,11 +22,11 @@ function App() {
         info={currentData.InfoData}
         className={styles.generalInfo}
       ></GeneralInfo>
-      <ContentInfo
+      {/* <ContentInfo
         info={currentData.SummaryData}
         className={styles.misInfo}
         updateInfo={(newData) => updateData("SummaryData", newData)}
-      ></ContentInfo>
+      ></ContentInfo> */}
       <ContentInfo
         info={currentData.WorkData}
         className={styles.workInfo}
@@ -47,27 +47,26 @@ function App() {
         className={styles.projInfo}
         updateInfo={(newData) => updateData("ProjData", newData)}
       ></ContentInfo>
-      <ContentInfo
+      {/* <ContentInfo
         info={currentData.TechData}
         className={styles.techInfo}
         updateInfo={(newData) => updateData("TechData", newData)}
-      ></ContentInfo>
+      ></ContentInfo> */}
       <ContentInfo
         info={currentData.MisData}
         className={styles.misInfo}
         updateInfo={(newData) => updateData("MisData", newData)}
       ></ContentInfo>
-      {/* <ContentInfo
+      <ContentInfo
         info={currentData.IntLangData}
         className={styles.intLangInfo}
-        updateInfo={(newData) =>
-          updateData("IntLangData", newData)
-        }></ContentInfo> */}
-      <ContentInfo
+        updateInfo={(newData) => updateData("IntLangData", newData)}
+      ></ContentInfo>
+      {/* <ContentInfo
         info={currentData.CerData}
         className={styles.misInfo}
         updateInfo={(newData) => updateData("CerData", newData)}
-      ></ContentInfo>
+      ></ContentInfo> */}
       <Certifications
         info={currentData.CerData}
         className={styles.cerInfo}
