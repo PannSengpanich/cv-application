@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Experienced in applying data science and machine learning to analyze complex financial datasets and develop predictive models. Proven success in validating PD and LGD models using SAS, and automating credit scoring processes. Skilled in fine-tuning Stable Diffusion models and collaborating on cross-functional projects across finance, technology, and data analysis domains.",
+      "Experienced in applying data science and machine learning to analyze complex financial datasets and develop predictive models. Proven success in validating credit risk models , and automating validation processes. Skilled in training Stable Diffusion models and collaborating on cross-functional projects across finance, technology, and data analysis domains.",
   },
 ];
 export const TechData = [
