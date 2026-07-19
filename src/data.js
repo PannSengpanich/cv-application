@@ -50,9 +50,10 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Validated end-to-end credit risk data products (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, using SQL and Python to transform raw datasets into trusted, high-quality models that power reliable risk decisions.",
-      "Collaborated with cross-functional stakeholders — including business, risk, and technology teams to translate business challenges into data-powered opportunities, bridging technical findings and strategic decisions.",
-      "Developed dashboards and model validation documentation to communicate solution value to client teams, driving data literacy and enabling self-serve insight access.",
+      "Validated regulatory and non-regulatory credit risk models (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, uncovering data integrity issues through SQL and assessing model design and performance — including assumptions, accuracy, and outliers — through Python and Excel to ensure model reliability.",
+      ,
+      "Partnered with cross-functional stakeholders across business, risk, and technology to translate complex business challenges into data-powered solutions, bridging technical findings with strategic decision-making.",
+      "Built Power BI dashboards and model validation documentation that communicated solution value to client teams, strengthening data literacy and enabling self-serve access to insights.",
     ],
     date: "June 2025 - Present",
   },
