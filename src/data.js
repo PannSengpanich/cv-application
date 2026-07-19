@@ -19,14 +19,22 @@ export const TechData = [
   { topic: "TECHNOLOGIES" },
   {
     details: [
-      "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
-      "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, React.",
-      "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode,  Figma, Canva.",
+      // "Programming Languages: Python, PyTorch, SQL, SAS, Java, JavaScript, HTML ,CSS, SCSS.",
+      // "Frameworks & Libraries: PostgreSQL, NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, React.",
+      // "Tools & Platforms: Github, Microsoft Office, Kaggle, Google Colab, Anaconda Navigator, VSCode,  Figma, Canva.",
+      "Tools: Microsoft Office, Power BI, Python, SQL, SAS, GitHub, Figma, Canva.",
     ],
   },
 ];
 export const IntLangData = [
   { topic: "ADDITIONAL INFORMATION" },
+  {
+    head: "Tools:",
+    details: [
+      "Microsoft Office, Power BI, Python, SQL, SAS, GitHub, Figma, Canva.",
+    ],
+  },
+
   {
     head: "Languages:",
     details: [
@@ -147,14 +155,20 @@ export const MisData = [
     url: "",
   },
   {
-    head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
+    head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
     details: [
-      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders.",
-      "Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
+      "Set out to cut plastic waste and PM2.5 pollution, and built a reusable lunch box prototype.",
+      "Grounded the design in real data — interviewed food delivery riders regarding the dimensions and materials of their lunch boxes, and conducted a survey on the public's willingness to pay for a reusable lunch box.",
+    ],
+  },
+  {
+    head: "Member of CU Band since 2020, and Chief of CU Band's Pianist in 2022  ",
+    details: [
+      "Led the piano section as chief pianist and collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
+      "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
     ],
     url: "",
   },
-
   {
     head: "Member of New Investor Program for Society (NIP-S 35)",
     details: [
@@ -163,18 +177,11 @@ export const MisData = [
     ],
     url: "",
   },
-
-  // {
-  //   head: "3rd Prize in the ISE Exploring Engineering World Competition 2021",
-  //   details: [
-  //     "Aimed to mitigate plastic waste and PM2.5 pollution, culminated in a reusable lunch box prototype, informed by data gathered from food delivery bikers regarding dimensions and materials. ",
-  //   ],
-  // },
   {
-    head: "Member of CU Band since 2020, and chief of CU Band's pianist in 2022  ",
+    head: "ChAMP: Chulalongkorn Alumni Mentorship Program 12 (as a mentee)",
     details: [
-      "Collaborated with members from various faculties across the university to practice musical instruments and compose original tunes for the annual Broadway-style musical show.",
-      "Managed and assigned work to each of the pianist members, provided advice to the team, and set up workshops for new CU Band members.",
+      "Interviewed and selected by the program's core team, mentored by highly successful alumni, including business owners and other industry leaders.",
+      "Guided in developing soft skills, planning careers, setting life goals, and meeting with other mentors and mentees.",
     ],
     url: "",
   },
