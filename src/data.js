@@ -64,7 +64,7 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Gathered and validated business requirements for PD and LGD model acceptance testing at a government bank, using SAS and Excel to verify data accuracy and model performance (Gini, KS, PSI, binomial test) against defined criteria.",
+      "Performed quantitative validation of credit scoring models for a government bank, including model replication and performance assessment, using SAS and Excel to conduct GINI, KS, PSI, and binomial tests.",
     ],
     date: "June 2024 - April 2025",
   },
