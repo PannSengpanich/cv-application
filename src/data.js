@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Experienced in applying data science and machine learning to analyze complex financial datasets and develop predictive models. Proven success in validating credit risk models , and automating validation processes. Skilled in training Stable Diffusion models and collaborating on cross-functional projects across finance, technology, and data analysis domains.",
+      "Business-minded data analyst with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY working with financial institutions to validate credit risk data products (IFRS 9 / TFRS 9), develop quality assurance frameworks, and produce clear technical documentation. Proficient in Python, SQL, and SAS; passionate about translating complex problems into clear, adoptable solutions",
   },
 ];
 export const TechData = [
@@ -50,9 +50,9 @@ export const WorkData = [
   {
     head: "EY (Risk Consultant - Financial Service Risk Management)",
     details: [
-      "Performed end-to-end qualitative and quantitative validation of regulatory and non-regulatory credit risk models, including IFRS 9 / TFRS 9 impairment and credit scoring models for financial institutions, leveraging SQL and Python to enhance regulatory compliance and deliver more reliable risk assessment for decision-making",
-      "Collaborated with cross-functional stakeholders — including business, risk, and technology teams, supporting client discussions and facilitating alignment between technical findings and business objectives.",
-      "Developed clear documentation and dashboards for model validation findings, improving data literacy and enabling self-serve insight access for client teams.",
+      "Validated regulatory and non-regulatory credit risk models (IFRS 9/TFRS 9 impairment and scoring models) for financial institutions, uncovering data integrity issues through SQL and assessing model design and performance — including assumptions, accuracy, and outliers — through Python and Excel to ensure model reliability.",
+      "Partnered with cross-functional stakeholders across business, risk, and technology to translate complex business challenges into data-powered solutions, bridging technical findings with strategic decision-making.",
+      "Built Power BI dashboards and model validation documentation that communicated solution value to client teams, strengthening data literacy and enabling self-serve access to insights.",
     ],
     date: "June 2025 - Present",
   },
@@ -63,7 +63,7 @@ export const InternshipData = [
     head: "EY (Risk Consultant - Financial Service Risk Management)",
 
     details: [
-      "Performed quantitative validation of PD and LGD models for a government bank using SAS for data accuracy checks and Excel for analysis with metrics such as Gini, KS, binomial test, and PSI, ensuring model performance reliability and compliance with regulatory standards.",
+      "Performed quantitative validation of credit scoring models for a government bank, including model replication and performance assessment, using SAS and Excel to conduct GINI, KS, PSI, and binomial tests.",
     ],
     date: "June 2024 - April 2025",
   },
