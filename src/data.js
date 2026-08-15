@@ -12,7 +12,7 @@ export const SummaryData = [
   { topic: "SUMMARY" },
   {
     details:
-      "Business-minded data analyst with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY working with financial institutions to validate credit risk data products (IFRS 9 / TFRS 9), develop quality assurance frameworks, and produce clear technical documentation. Proficient in Python, SQL, and SAS; passionate about translating complex problems into clear, adoptable solutions.",
+      "Business-minded consultant with hands-on experience bridging technical and business stakeholders in financial services. Proven track record at EY working with financial institutions to validate credit risk data products (IFRS 9 / TFRS 9), develop quality assurance frameworks, and produce clear technical documentation. Proficient in Python, SQL, and SAS; passionate about translating complex problems into clear, adoptable solutions.",
   },
 ];
 export const TechData = [
@@ -84,7 +84,7 @@ export const EdData = [
     head: "Chulalongkorn University: ISE (International School of Engineering)",
     details: [
       "Information and Communication Engineering (GPAX 3.63) with an A in Data Warehousing, A in Software Engineering, and B+ in Database Systems.",
-      "Aerospace Engineering (2020-2022).",
+      // "Aerospace Engineering (2020-2022).",
     ],
     date: "2020-2025",
   },
